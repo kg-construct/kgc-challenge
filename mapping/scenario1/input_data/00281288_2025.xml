@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><cn:ContractNotice xmlns:cn="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:brin="http://data.europa.eu/p27/eforms-business-registration-information-notice/1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:can="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:pin="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="DEU">Stadt Hof</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Klosterstr. 1</cbc:StreetName>
+                  <cbc:CityName>Hof</cbc:CityName>
+                  <cbc:PostalZone>95028</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">DE244</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>DE132958643</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+49 9281 - 815 0</cbc:Telephone>
+                  <cbc:ElectronicMail>vergabestelle@stadt-hof.de</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="DEU">Regierung von Mittelfranken - Vergabekammer Nordbayern
+</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Promenade 27 </cbc:StreetName>
+                  <cbc:CityName>Ansbach
+</cbc:CityName>
+                  <cbc:PostalZone>91522
+</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">DE251</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>+49981531277</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+49 981531277</cbc:Telephone>
+                  <cbc:ElectronicMail>vergabekammer.nordbayern@reg-mfr.bayern.de</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00281288-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">85/2025</efbc:GazetteID><efbc:PublicationDate>2025-05-02+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">91503d05-e91e-49ad-8c05-b53214ab1242</cbc:ID>
+  <cbc:ContractFolderID>876b9b48-68a3-4885-b61a-2cc0c669f65f</cbc:ContractFolderID>
+  <cbc:IssueDate>2025-04-30+02:00</cbc:IssueDate>
+  <cbc:IssueTime>09:26:22+02:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RequestedPublicationDate>2025-04-30+02:00</cbc:RequestedPublicationDate>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cbc:BuyerProfileURI>https://plattform.aumass.de/Veroeffentlichung/av25490d-eu</cbc:BuyerProfileURI>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID>ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+    <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingTerms>
+    <cac:ProcurementLegislationDocumentReference>
+      <cbc:ID>vgv</cbc:ID>
+    </cac:ProcurementLegislationDocumentReference>
+    <cac:ProcurementLegislationDocumentReference>
+      <cbc:ID>CrossBorderLaw</cbc:ID>
+      <cbc:DocumentDescription languageID="DEU">-</cbc:DocumentDescription>
+    </cac:ProcurementLegislationDocumentReference>
+    <cac:TendererQualificationRequest>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+      </cac:SpecificTendererRequirement>
+    </cac:TendererQualificationRequest>
+    <cac:TendererQualificationRequest>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-natl-bre-nat-law</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="DEU">— Nichtvorliegen von Ausschlussgründen nach § 123 GWB in den letzten 5 Jahren, — Nichtvorliegen von Ausschlussgründen nach§ 124 GWB in den letzten 3 Jahren, 
+— ggf. Selbstreinigungsmaßnahmen nach § 125 GWB. Nachweis: Eigenerklärung, ggf. auf gesondertes Verlangen: 
+— aktueller Auszug aus Berufszentralregister für alle gesetzlichen Vertreter, Führungskräfte,
+— aktueller Auszug aus Berufszentralregister für alle für die Auftragsausführung verantwortlichen Personen, 
+— Unbedenklichkeitsbescheinigung der Sozialversicherungsträger, 
+— Bescheinigung des Finanzamtes (soweit dieses solche ausstellt), 
+— Unbedenklichkeitsbescheinigung der Berufsgenossenschaft. 
+Die vollständige Benennung und weitere Einzelheiten zu den Ausschlussgründen sind in den Bewerbungsunterlagen aufgeführt.
+</cbc:Description>
+      </cac:SpecificTendererRequirement>
+    </cac:TendererQualificationRequest>
+  </cac:TenderingTerms>
+  <cac:TenderingProcess>
+    <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID>30-2025-66T-02</cbc:ID>
+    <cbc:Name languageID="DEU">Neubau eines Regenüberlaufbeckens RÜB 17 Landratsamt Süd</cbc:Name>
+    <cbc:Description languageID="DEU">Die Stadt Hof plant den Neubau eines Regenüberlaufbeckens RÜB 17 Landratsamt“ inkl. den entsprechenden Umbau der Zulaufkanäle.
+Das bestehende Kanalnetz und vor allem die Mischwasserentlastungen entsprechen teilweise nicht mehr den Erfordernissen und sind hydraulisch überlastet.
+Derzeit erfolgt die Entlastung überwiegend über Regenüberläufe bzw.
+Trennbauwerke ohne Zwischenspeicherung. Bei starken Niederschlägen werden die
+überschüssigen Wassermengenzusammen mit dem Abwasser in die nahegelegenen
+Nebenvorfluter geleitet.
+Der geplante Standort (Fl.Nr. 199/0, Gemarkung 1890 Moschendorf) befindet sich im Ortsteil
+Moschendorf zwischen Untreusee und der Firma „homa Wohnwelt“ entlang der Wunsiedler Straße. Das Gebiet ist unbebaut und wird als Mähfläche genutzt.
+</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">71320000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">71322000</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">71327000</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">71334000</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:CityName>Hof - OT Moschendorf</cbc:CityName>
+        <cbc:PostalZone>95032</cbc:PostalZone>
+        <cbc:CountrySubentityCode listName="nuts">DE244</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+    <cac:TenderingTerms>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="DEU">Vollständige Angaben zum Unternehmen des Bewerbers
+Nachweis: Eigenerklärung oder EEE, ggf. auf gesondertes Verlangen: — Auszug aus dem Handels- oder Berufsregister (soweit eingetragen). 
+</cbc:Description>
+                <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="DEU">Bestehen oder Abschluss einer Berufshaftpflichtversicherung Nachweis: Eigenerklärung, EEE, Präqualifikation, ggf. auf gesondertes Verlangen: 
+— Kopie der Versicherungspolice, 
+— Erklärung des Versicherers (nicht des Maklers).
+Mindestanforderung: 
+— Deckungssumme je Schaden mind. 2,0 Mio. EUR Personenschäden, 
+Deckungssumme je Schaden mind. 2,0 Mio. EUR für sonstige Schäden (Sach- und
+Vermögensschäden). Steht in jedem Versicherungsjahr mindestens 2-fach zur Verfügung.
+</cbc:Description>
+                <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-to-avg</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="DEU">Gesamtumsatz in den letzten 3 Geschäftsjahren (2021/2022/2023) 
+Nachweis: Eigenerklärung, EEE, Präqualifikation, ggf. auf gesondertes Verlangen: — testierte Bilanzen oder Bilanzauszügen (soweit Veröffentlichungspflicht), 
+— testierte Gewinn-/Verlustrechnung,
+Bestätigung eines vereidigten Wirtschaftsprüfers oder Steuerberaters. 
+Mindeststandards: 
+Im Durchschnitt der letzten 3 Geschäftsjahre mindestens 350 000 EUR pro Jahr (netto) (außer bei Büroneugründungen).
+</cbc:Description>
+                <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="DEU">Die Anforderungen zu einem besonderen Berufsstand werden erfüllt durch: a) Natürliche Personen, die als „Ingenieur“ oder „Beratender Ingenieur“ in der Ingenieurkammer, sowie in der Liste der bauvorlageberechtigter Ingenieure eingetragen sind und über die Berechtigung zur Erstellung des Standsicherheitsnachweis verfügen, oder b) Juristische Personen, wenn die verantwortliche Person für die Durchführung der Aufgabe ein Berufsangehöriger nach a) ist. Ist in den jeweiligen Heimatstaaten die Berufsbezeichnung gesetzlich nicht geregelt, so erfüllt die Anforderungen als Ingenieur, wer über ein Diplom, Prüfungszeugnis oder sonstigen Befähigungsnachweisen verfügt, dessen Anerkennung nach der Richtlinie
+2005/36/EG – „Berufsanerkennungsrichtlinie“ – gewährleistet ist. Bei Bewerbergemeinschaften ist die Erlaubnis zur Berufsausübung mindestens von einem Mitglied jeweils für sich selbst und für alle Leistungen des Auftrags nachzuweisen (eine nach Leistungsteilen getrennte Betrachtung ist nicht zulässig).
+</cbc:Description>
+                <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="DEU">1.Eignungskriterium: Referenz 1, Objektplanung Ingenieurbauwerke; Neubau eines Abwasserbauwerks, Leistungsphasen 2-4; Nachweis Eigenerklärung.
+Geforderte Mindeststandards: 
+a) Die erbrachten Leistungen waren Objektplanung Ingenieurbauwerke in den Leistungsphasen 2 – 4
+b) Jede Leistungsphase der Leistungsphasen 2 – 4 wurde jeweils im Zeitraum ab 01.01.2018 bis vor Vergabebekanntmachung dieses Verfahrens abgeschlossen.
+c) Die Planungsleistungen wurden für einen Neubau eines Abwasserbauwerks (z.B. RÜB, RRB, Fangbecken, etc.) erbracht.
+d) Die anrechenbaren Kosten der Objektplanung der Maßnahme zum Zeitpunkt der Kostenberechnung (bzw. Kostenfeststellung) betrugen ≥ 1.000.000,- € netto.
+e) Die erbrachten Leistungen waren Planungsleistungen mindestens der Honorarzone III.
+f) Die erbrachten Leistungen waren Planungsleistungen für einen öffentlichen Auftraggeber.
+2.Eignungskriterium: Referenz 2 des Bewerbers Objektplanung Ingenieurbauwerke, Neubau eines Abwasserbauwerks, Leistungsphasen 5-7; Nachweis Eigenerklärung.
+Geforderte Mindeststandards: 
+a) Die erbrachten Leistungen waren Objektplanung Ingenieurbauwerke in den Leistungsphasen 5 – 7
+b) Jede Leistungsphase der Leistungsphasen 5 – 7 wurde jeweils im Zeitraum ab 01.01.2018 bis vor Vergabebekanntmachung dieses Verfahrens abgeschlossen.
+c) Die Planungsleistungen wurden für einen Neubau eines Abwasserbauwerks (z.B. RÜB, RRB, Fangbecken, etc.) erbracht.
+d) Die anrechenbaren Kosten der Objektplanung der Maßnahme zum Zeitpunkt der Kostenberechnung (bzw. Kostenfeststellung) betrugen ≥ 1.000.000,- € netto.
+e) Die erbrachten Leistungen waren Planungsleistungen mindestens der Honorarzone III.
+f) Die erbrachten Leistungen waren Planungsleistungen für einen öffentlichen Auftraggeber.
+3.Eignungskriterium: Referenz 3 des Bewerbers Objektplanung Ingenieurbauwerke, Neubau eines Abwasserbauwerks, Leistungsphase 8; Nachweis Eigenerklärung.
+Geforderte Mindeststandards: 
+a) Die erbrachten Leistungen waren Objektplanung Ingenieurbauwerke in der Leistungsphase 8.
+b) Die Leistungsphasen 8 wurde jeweils im Zeitraum ab 01.01.2018 bis vor Vergabebekanntmachung dieses Verfahrens abgeschlossen.
+c) Die Planungsleistungen wurden für einen Neubau eines Abwasserbauwerks (z.B. RÜB, RRB, Fangbecken, etc.) erbracht.
+d) Die anrechenbaren Kosten der Objektplanung der Maßnahme zum Zeitpunkt der Kostenberechnung (bzw. Kostenfeststellung) betrugen ≥ 1.000.000,- € netto.
+e) Die erbrachten Leistungen waren Planungsleistungen mindestens der Honorarzone III.
+f) Die erbrachten Leistungen waren Planungsleistungen für einen öffentlichen Auftraggeber.
+4.Eignungskriterium: Referenz 4 des Bewerbers, Fachplanung Tragwerksplanung für Ingenieurbauwerke aus dem Bereich Abwasserentsorgung
+Geforderte Mindeststandards: 
+a) Die erbrachten Leistungen waren Fachplanungen Tragwerksplanung in den Leistungsphasen 2 - 4.
+b) Jede Leistungsphase der Leistungsphasen 2 – 4 wurde jeweils im Zeitraum ab 01.01.2018 bis vor Vergabebekanntmachung dieses Verfahrens abgeschlossen.
+c) Die Leistungen der Tragwerksplanung wurden für Ingenieurbauwerke aus dem Bereich Abwasserentsorgung durchgeführt.
+d) Die anrechenbaren Kosten der Maßnahme zum Zeitpunkt der Kostenberechnung (bzw. Kostenfeststellung) betrugen ≥ 800.000,- € netto.
+e) Die erbrachten Leistungen waren Planungsleistungen mindestens der Honorarzone III.
+f) Die erbrachten Leistungen waren Planungsleistungen für einen öffentlichen Auftraggeber.
+5.Eignungskriterium: Referenz 5 des Bewerbers, Fachplanung Tragwerksplanung, für Ingenieurbauwerke aus dem Bereich Abwasserentsorgung
+Geforderte Mindeststandards: 
+a) Die erbrachten Leistungen waren Fachplanungen in den Leistungsphasen 5 - 6.
+b) Jede Leistungsphase der Leistungsphasen 5 – 6 wurde jeweils im Zeitraum ab 01.01.2018 bis vor Vergabebekanntmachung dieses Verfahrens abgeschlossen.
+c) Die Leistungen der Tragwerksplanung wurden für Ingenieurbauwerke aus dem Bereich Abwasserentsorgung durchgeführt.
+d) Die anrechenbaren Kosten der Maßnahme zum Zeitpunkt der Kostenberechnung (bzw. Kostenfeststellung) betrugen ≥ 800.000,- € netto.
+e) Die erbrachten Leistungen waren Planungsleistungen mindestens der Honorarzone III.
+f) Die erbrachten Leistungen waren Planungsleistungen für einen öffentlichen Auftraggeber.
+6.Eignungskriterium: Referenz 6 des Bewerbers, Fachplanung Technische Ausrüstung, für Ingenieurbauwerke aus dem Bereich Abwasserentsorgung
+Geforderte Mindeststandards: 
+a) Die erbrachten Leistungen waren Fachplanungen (Technische Ausrüstung) in den Leistungsphasen 2-3.
+b) Jede Leistungsphase der Leistungsphasen 2 – 3 wurde jeweils im Zeitraum ab 01.01.2018 bis vor Vergabebekanntmachung dieses Verfahrens abgeschlossen.
+c) Die Leistungen der Technischen Ausstattung wurden für Ingenieurbauwerke aus dem Bereich Abwasserentsorgung erbracht.
+7.Eignungskriterium: Referenz 7 des Bewerbers, Fachplanung Technische Ausrüstung, n für Ingenieurbauwerke aus dem Bereich Abwasserentsorgung
+Geforderte Mindeststandards: 
+a) Die erbrachten Leistungen waren Fachplanungen (Technische Ausrüstung) in den Leistungsphasen 5-7.
+b) Jede Leistungsphase der Leistungsphasen 5 – 7 wurde jeweils im Zeitraum ab 01.01.2018 bis vor Vergabebekanntmachung dieses Verfahrens abgeschlossen.
+c) Die Leistungen der Technischen Ausstattung wurden für Ingenieurbauwerke aus dem Bereich Abwasserentsorgung erbracht.
+8.Eignungskriterium: Referenz 8 des Bewerbers, Fachplanung Technische Ausrüstung für Ingenieurbauwerke aus dem Bereich Abwasserentsorgung
+Geforderte Mindeststandards: 
+a) Die erbrachten Leistungen waren Fachplanungen (Technische Ausrüstung) in den Leistungsphasen 8.
+b) Die Leistungsphase 8 wurde im Zeitraum ab 01.01.2018 bis vor Vergabebekanntmachung dieses Verfahrens abgeschlossen.
+c) Die Leistungen der Technischen Ausstattung wurden für Ingenieurbauwerke aus dem Bereich Abwasserentsorgung erbracht.
+--- Weitere Einzelheiten zu den Eignungskriterien und den einzuhaltenden Mindeststandards sind in den Bewerbungsunterlagen aufgeführt.
+</cbc:Description>
+                <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-qual</cbc:TendererRequirementTypeCode>
+                <cbc:Description languageID="DEU">Anforderungen siehe Beschreibung im Punkt Eintragung in eine relevantes Berufsregister.</cbc:Description>
+                <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+              </efac:SelectionCriteria>
+              <efac:StrategicProcurement>
+                <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+              </efac:StrategicProcurement>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+      <cac:CallForTendersDocumentReference>
+        <ext:UBLExtensions>
+          <ext:UBLExtension>
+            <ext:ExtensionContent>
+              <efext:EformsExtension>
+                <efac:OfficialLanguages>
+                  <cac:Language>
+                    <cbc:ID>DEU</cbc:ID>
+                  </cac:Language>
+                </efac:OfficialLanguages>
+              </efext:EformsExtension>
+            </ext:ExtensionContent>
+          </ext:UBLExtension>
+        </ext:UBLExtensions>
+        <cbc:ID>30-2025-66T-02</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://plattform.aumass.de/Veroeffentlichung/av25490d-eu</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+          <cbc:Description languageID="DEU">Fehlende Erklärungen und Nachweise gem. § 56 Abs. 2 VgV werden nachgefordert.
+</cbc:Description>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:AwardingTerms>
+        <cbc:NoFurtherNegotiationIndicator>true</cbc:NoFurtherNegotiationIndicator>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>15</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="DEU">Die vollständige Kriterienbeschreibung, die Unterkriterien und das Bewertungsschema sind in den Beschaffungsunterlagen aufgeführt.
+</cbc:Name>
+            <cbc:Description languageID="DEU">Organisation der Auftragsabwicklung </cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>5</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="DEU">Die vollständige Kriterienbeschreibung, die Unterkriterien und das Bewertungsschema sind in den Beschaffungsunterlagen aufgeführt.</cbc:Name>
+            <cbc:Description languageID="DEU">Verfügbarkeit während der Auftragsabwicklung
+</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>25</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="DEU">Die vollständige Kriterienbeschreibung, die Unterkriterien und das Bewertungsschema sind in den Beschaffungsunterlagen aufgeführt.</cbc:Name>
+            <cbc:Description languageID="DEU">Projektanalyse/Herangehensweise -
+</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>15</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="DEU">Die vollständige Kriterienbeschreibung, die Unterkriterien und das Bewertungsschema sind in den Beschaffungsunterlagen aufgeführt.</cbc:Name>
+            <cbc:Description languageID="DEU">Arbeitsmethodik während der Auftragsabwicklung
+</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>5</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="DEU">Die vollständige Kriterienbeschreibung, die Unterkriterien und das Bewertungsschema sind in den Beschaffungsunterlagen aufgeführt.</cbc:Name>
+            <cbc:Description languageID="DEU">Kostenmanagement</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>35</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="DEU">Die vollständige Kriterienbeschreibung, die Unterkriterien und das Bewertungsschema sind in den Beschaffungsunterlagen aufgeführt.</cbc:Name>
+            <cbc:Description languageID="DEU">Honorar</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:TenderRecipientParty>
+        <cbc:EndpointID>https://plattform.aumass.de/Veroeffentlichung/av25490d-eu</cbc:EndpointID>
+        <cac:PartyIdentification>
+          <cbc:ID>ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:TenderRecipientParty>
+      <cac:TenderEvaluationParty>
+        <cac:PartyIdentification>
+          <cbc:ID>ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:TenderEvaluationParty>
+      <cac:AppealTerms>
+        <cac:PresentationPeriod>
+          <cbc:Description languageID="DEU">1) Etwaige Vergabeverstöße muss der Bewerber/Bieter
+gemäß § 160 Abs. 3 Nr. 1 GWB innerhalb von 10 Tagen nach Kenntnisnahme rügen. 2) Verstöße
+gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, sind nach § 160 Abs.
+3 Nr. 2 GWB spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Abgabe der
+Bewerbung oder der Angebote gegenüber dem Auftraggeber zu rügen. 3) Verstöße gegen
+Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, sind nach § 160 Abs. 3 Nr. 3
+GWB spätestens bis zum Ablauf der Frist zur Bewerbungs- oder Angebotsabgabe gegenüber dem
+Auftraggeber zu rügen. 4) Ein Vergabenachprüfungsantrag ist nach § 160 Abs. 3 Nr. 4 GWB innerhalb
+von 15 Kalendertagen nach der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen,
+bei der Vergabekammer einzureichen.
+</cbc:Description>
+        </cac:PresentationPeriod>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID>ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <cbc:ID>DEU</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+      <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+      <cbc:AccessToolsURI>https://plattform.aumass.de/Veroeffentlichung/av25490d-eu</cbc:AccessToolsURI>
+      <cac:ParticipationRequestReceptionPeriod>
+        <cbc:EndDate>2025-06-02+02:00</cbc:EndDate>
+        <cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+      </cac:ParticipationRequestReceptionPeriod>
+      <cac:EconomicOperatorShortList>
+        <cbc:LimitationDescription>true</cbc:LimitationDescription>
+        <cbc:MaximumQuantity unitCode="DAY">5</cbc:MaximumQuantity>
+        <cbc:MinimumQuantity unitCode="DAY">3</cbc:MinimumQuantity>
+      </cac:EconomicOperatorShortList>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:FrameworkAgreement>
+        <cac:SubsequentProcessTenderRequirement>
+          <cbc:Name>buyer-categories</cbc:Name>
+        </cac:SubsequentProcessTenderRequirement>
+      </cac:FrameworkAgreement>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID>30-20254-66T-02</cbc:ID>
+      <cbc:Name languageID="DEU">Neubau eines Regenüberlaufbeckens RÜB 17 Landratsamt</cbc:Name>
+      <cbc:Description languageID="DEU">Für das Projekt RÜB 17 Landratsamt – Neubau Regenüberlaufbecken werden folgende Leistungen vergeben:
+Objektplanung Ingenieurbauwerke gem. § 43 und Anlage 12, HOAI 2021, LPH 1-9, inkl. besonderer Leistungen.
+Fachplanung Tragwerksplanung gem. § 51 und Anlage 14, HOAI 2021, LPH 1-6, inkl. besonderer Leistungen.
+Fachplanung Technische Ausrüstung Anlagengruppen 4,5 und 7 gem. § 55 und Anlage 15, HOAI 2021, LPH 1-8 (ohne LpH4)
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">#Besonders auch geeignet für:other-sme#</cbc:Note>
+      <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">71320000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">71322000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">71327000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">71334000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:PlannedPeriod>
+        <cbc:StartDate>2025-09-01+02:00</cbc:StartDate>
+        <cbc:EndDate>2027-04-30+02:00</cbc:EndDate>
+      </cac:PlannedPeriod>
+      <cac:ContractExtension>
+        <cbc:OptionsDescription languageID="DEU">Die Leistungen werden stufenweise beauftragt:
+Stufe 1: Leistungsphasen 1 - 4
+Stufe 2: Leistungsphasen 5 - 7    (Tragwerksplanung 5-6)
+Stufe 3: Leistungsphasen 8 – 9   (Tragwerksplanung + Technische Ausrüstung nur Lph 8)
+
+Der Auftraggeber wird mit Zuschlagerteilung zunächst nur die Grundleistungen der Leistungsphasen 
+1 – 4  beauftragen. Der AG behält sich vor, die Übertragung der weiteren Leistungsstufen zu beschränken. Der AG ist in seiner Entscheidung über eine Weiterbeauftragung frei; ein Anspruch auf Übertragung weiterer Leistungen besteht nicht.
+</cbc:OptionsDescription>
+      </cac:ContractExtension>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+</cn:ContractNotice>
