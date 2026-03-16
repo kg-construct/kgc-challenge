@@ -24,7 +24,7 @@ EXIT_CODE_SELINUX = -5
 EXIT_CODE_EVEN_RUNS = -6
 EXIT_CODE_INTERRUPTED = -7
 EXIT_CODE_DOWNLOAD_FAILURE = -8
-KGC_CHALLENGE_URL = 'https://zenodo.org/record/7509997/files/geosapi-0.6-5.tar.gz?download=1'  # noqa: E501
+KGC_CHALLENGE_URL = None  # noqa: E501
 KGC_CHALLENGE_FILE_NAME = 'eswc-kgc-challenge-2023.tar.gz'
 DOWNLOAD_DIR = 'downloads'
 
@@ -291,6 +291,9 @@ def download_challenge():
 
     Fetch the archive from Zenodo and unpack it.
     """
+    if KGC_CHALLENGE_URL is None: 
+        print("KGC Challenge zenodo repository hasn't been made yet! (might not needed to be for 2026)")
+        exit(1)
     archive_path: str = os.path.join(DOWNLOAD_DIR, KGC_CHALLENGE_FILE_NAME)
     extraction_path: str = \
         os.path.join(DOWNLOAD_DIR,
