@@ -19,8 +19,7 @@ DATA_FILE1 = 'data1.csv'
 DATA_FILE2 = 'data2.csv'
 RDB_MAPPING_FILE = 'mapping.r2rml.ttl'
 CSV_MAPPING_FILE = 'mapping.rml.ttl'
-R2RML = Namespace('http://www.w3.org/ns/r2rml#')
-QL = Namespace('http://semweb.mmlab.be/ns/ql#')
+RML = Namespace('http://w3id.org/rml/')
 EX = Namespace('http://example.com/')
 
 
@@ -208,22 +207,22 @@ class JoinsDuplicate(Scenario):
         object_map_iri = BNode()
         join_condition_iri = BNode()
 
-        mapping.add((join_condition_iri, R2RML.child, child_value))
-        mapping.add((join_condition_iri, R2RML.parent, parent_value))
-        mapping.add((join_condition_iri, RDF.type, R2RML.JoinCondition))
-        mapping.add((predicate_map_iri, R2RML.constant, predicate_value))
-        mapping.add((predicate_map_iri, RDF.type, R2RML.PredicateMap))
-        mapping.add((object_map_iri, RDF.type, R2RML.ReferenceObjectMap))
-        mapping.add((object_map_iri, R2RML.parentTriplesMap,
+        mapping.add((join_condition_iri, RML.child, child_value))
+        mapping.add((join_condition_iri, RML.parent, parent_value))
+        mapping.add((join_condition_iri, RDF.type, RML.JoinCondition))
+        mapping.add((predicate_map_iri, RML.constant, predicate_value))
+        mapping.add((predicate_map_iri, RDF.type, RML.PredicateMap))
+        mapping.add((object_map_iri, RDF.type, RML.ReferenceObjectMap))
+        mapping.add((object_map_iri, RML.parentTriplesMap,
                      parent_triplesmap_iri))
-        mapping.add((object_map_iri, R2RML.joinCondition, join_condition_iri))
-        mapping.add((predicate_object_map_iri, R2RML.predicateMap,
+        mapping.add((object_map_iri, RML.joinCondition, join_condition_iri))
+        mapping.add((predicate_object_map_iri, RML.predicateMap,
                      predicate_map_iri))
-        mapping.add((predicate_object_map_iri, R2RML.objectMap,
+        mapping.add((predicate_object_map_iri, RML.objectMap,
                      object_map_iri))
         mapping.add((predicate_object_map_iri, RDF.type,
-                     R2RML.PredicateObjectMap))
-        mapping.add((triplesmap_iri, R2RML.predicateObjectMap,
+                     RML.PredicateObjectMap))
+        mapping.add((triplesmap_iri, RML.predicateObjectMap,
                      predicate_object_map_iri))
 
         return join_condition_iri
@@ -237,8 +236,7 @@ class JoinsDuplicate(Scenario):
             [R2]RML mapping as an RDFLib Graph.
         """
         mapping: Graph = Graph(base='http://ex.com/')
-        mapping.bind('rr', R2RML)
-        mapping.bind('ql', QL)
+        mapping.bind('rml', RML)
         mapping.bind('ex', EX)
         subject1_template = Literal('http://ex.com/table1/{id}')
         subject2_template = Literal('http://ex.com/table2/{id}')

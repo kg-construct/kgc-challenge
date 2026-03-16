@@ -17,8 +17,7 @@ from bench_generator.logger import Logger
 DATA_FILE1 = 'data1.csv'
 DATA_FILE2 = 'data2.csv'
 MAPPING_FILE = 'mapping.r2rml.ttl'
-R2RML = Namespace('http://www.w3.org/ns/r2rml#')
-QL = Namespace('http://semweb.mmlab.be/ns/ql#')
+RML = Namespace('http://w3id.org/rml/')
 EX = Namespace('http://example.com/')
 
 
@@ -74,7 +73,7 @@ class Joins(Scenario):
             raise NotImplementedError(f'Data format {self._data_format} '
                                       f'is not implemented by {__name__}')
 
-        super().__init__(main_directory, verbose)
+        super().__init__(data_format, engine, main_directory, verbose)
         self._logger = Logger(__name__, self._main_directory, self._verbose)
         self._logger.debug(f'Generating join {self._join_n}-{self._join_m}'
                            f' with {self._percentage}%')
@@ -146,7 +145,7 @@ class Joins(Scenario):
         return DataFrame(data)
 
     def _update_one_on_one(self, dataframe1: DataFrame,
-                           dataframe2: DataFrame) -> DataFrame:
+                           dataframe2: DataFrame) -> tuple[DataFrame, DataFrame]:
         # 0% percentage results in zero matches for the join condition,
         # don't even bother to try to match the dataframes
         if self._percentage == 0.0:
@@ -174,7 +173,7 @@ class Joins(Scenario):
             list(set([row[1]['p1'] for row in members_sample.iterrows()]))\
             [:int(number_of_members_to_join_m + 0.5)]
         # Repeat the values M times to honor the relation size
-        members_value = members_value * self.join_m
+        members_value = members_value * self._join_m
 
         # Limit number of values because we may have more values than members
         if len(members_value) > self._number_of_members:
@@ -193,7 +192,7 @@ class Joins(Scenario):
             list(set([row[1]['p1'] for row in members_sample.iterrows()]))\
             [:int(number_of_members_to_join_n + 0.5)]
         # Repeat the values M times to honor the relation size
-        members_value = members_value * self.join_n
+        members_value = members_value * self._join_n
 
         if len(members_value) > self._number_of_members:
             members_value = members_value[:self._number_of_members]
@@ -232,17 +231,17 @@ class Joins(Scenario):
         predicate_map_iri = BNode()
         object_map_iri = BNode()
 
-        mapping.add((predicate_map_iri, R2RML.constant, predicate_value))
-        mapping.add((predicate_map_iri, RDF.type, R2RML.PredicateMap))
-        mapping.add((object_map_iri, R2RML.column, object_value))
-        mapping.add((object_map_iri, RDF.type, R2RML.ObjectMap))
-        mapping.add((predicate_object_map_iri, R2RML.predicateMap,
+        mapping.add((predicate_map_iri, RML.constant, predicate_value))
+        mapping.add((predicate_map_iri, RDF.type, RML.PredicateMap))
+        mapping.add((object_map_iri, RML.column, object_value))
+        mapping.add((object_map_iri, RDF.type, RML.ObjectMap))
+        mapping.add((predicate_object_map_iri, RML.predicateMap,
                      predicate_map_iri))
-        mapping.add((predicate_object_map_iri, R2RML.objectMap,
+        mapping.add((predicate_object_map_iri, RML.objectMap,
                      object_map_iri))
         mapping.add((predicate_object_map_iri, RDF.type,
-                     R2RML.PredicateObjectMap))
-        mapping.add((triplesmap_iri, R2RML.predicateObjectMap,
+                     RML.PredicateObjectMap))
+        mapping.add((triplesmap_iri, RML.predicateObjectMap,
                      predicate_object_map_iri))
 
         return predicate_object_map_iri
@@ -277,22 +276,22 @@ class Joins(Scenario):
         object_map_iri = BNode()
         join_condition_iri = BNode()
 
-        mapping.add((join_condition_iri, R2RML.child, child_value))
-        mapping.add((join_condition_iri, R2RML.parent, parent_value))
-        mapping.add((join_condition_iri, RDF.type, R2RML.JoinCondition))
-        mapping.add((predicate_map_iri, R2RML.constant, predicate_value))
-        mapping.add((predicate_map_iri, RDF.type, R2RML.PredicateMap))
-        mapping.add((object_map_iri, RDF.type, R2RML.ReferenceObjectMap))
-        mapping.add((object_map_iri, R2RML.parentTriplesMap,
+        mapping.add((join_condition_iri, RML.child, child_value))
+        mapping.add((join_condition_iri, RML.parent, parent_value))
+        mapping.add((join_condition_iri, RDF.type, RML.JoinCondition))
+        mapping.add((predicate_map_iri, RML.constant, predicate_value))
+        mapping.add((predicate_map_iri, RDF.type, RML.PredicateMap))
+        mapping.add((object_map_iri, RDF.type, RML.ReferenceObjectMap))
+        mapping.add((object_map_iri, RML.parentTriplesMap,
                      parent_triplesmap_iri))
-        mapping.add((object_map_iri, R2RML.joinCondition, join_condition_iri))
-        mapping.add((predicate_object_map_iri, R2RML.predicateMap,
+        mapping.add((object_map_iri, RML.joinCondition, join_condition_iri))
+        mapping.add((predicate_object_map_iri, RML.predicateMap,
                      predicate_map_iri))
-        mapping.add((predicate_object_map_iri, R2RML.objectMap,
+        mapping.add((predicate_object_map_iri, RML.objectMap,
                      object_map_iri))
         mapping.add((predicate_object_map_iri, RDF.type,
-                     R2RML.PredicateObjectMap))
-        mapping.add((triplesmap_iri, R2RML.predicateObjectMap,
+                     RML.PredicateObjectMap))
+        mapping.add((triplesmap_iri, RML.predicateObjectMap,
                      predicate_object_map_iri))
 
         return join_condition_iri
@@ -322,11 +321,11 @@ class Joins(Scenario):
         subject_map_iri = BNode()
         logical_table_iri = BNode()
 
-        mapping.add((logical_table_iri, R2RML.tableName, table_name))
-        mapping.add((triples_map_iri, R2RML.logicalTable, logical_table_iri))
-        mapping.add((triples_map_iri, R2RML.subjectMap, subject_map_iri))
-        mapping.add((triples_map_iri, RDF.type, R2RML.TriplesMap))
-        mapping.add((subject_map_iri, R2RML.template, subject_value))
+        mapping.add((logical_table_iri, RML.tableName, table_name))
+        mapping.add((triples_map_iri, RML.logicalTable, logical_table_iri))
+        mapping.add((triples_map_iri, RML.subjectMap, subject_map_iri))
+        mapping.add((triples_map_iri, RDF.type, RML.TriplesMap))
+        mapping.add((subject_map_iri, RML.template, subject_value))
 
         return triples_map_iri
 
@@ -339,8 +338,7 @@ class Joins(Scenario):
             [R2]RML mapping as an RDFLib Graph.
         """
         mapping: Graph = Graph(base='http://ex.com/')
-        mapping.bind('rr', R2RML)
-        mapping.bind('ql', QL)
+        mapping.bind('rml', RML)
         mapping.bind('ex', EX)
         subject1_template = Literal('http://ex.com/table1/{id}')
         subject2_template = Literal('http://ex.com/table2/{id}')

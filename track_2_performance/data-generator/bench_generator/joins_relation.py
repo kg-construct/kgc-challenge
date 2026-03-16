@@ -19,8 +19,7 @@ DATA_FILE1 = 'data1.csv'
 DATA_FILE2 = 'data2.csv'
 RDB_MAPPING_FILE = 'mapping.r2rml.ttl'
 CSV_MAPPING_FILE = 'mapping.r2rml.ttl'
-R2RML = Namespace('http://www.w3.org/ns/r2rml#')
-QL = Namespace('http://semweb.mmlab.be/ns/ql#')
+RML = Namespace('http://w3id.org/rml/')
 EX = Namespace('http://example.com/')
 MEMBERS_PERCENTAGE = 50.0
 
@@ -209,8 +208,7 @@ class JoinsRelation(Scenario):
             [R2]RML mapping as an RDFLib Graph.
         """
         mapping: Graph = Graph(base='http://ex.com/')
-        mapping.bind('rr', R2RML)
-        mapping.bind('ql', QL)
+        mapping.bind('rml', RML)
         mapping.bind('ex', EX)
         subject1_template = Literal('http://ex.com/table1/{id}')
         subject2_template = Literal('http://ex.com/table2/{id}')

@@ -16,9 +16,7 @@ from bench_generator.logger import Logger
 DATA_FILE = 'data.csv'
 CSV_MAPPING_FILE = 'mapping.rml.ttl'
 RDB_MAPPING_FILE = 'mapping.r2rml.ttl'
-R2RML = Namespace('http://www.w3.org/ns/r2rml#')
-RML = Namespace('http://semweb.mmlab.be/ns/rml#')
-QL = Namespace('http://semweb.mmlab.be/ns/ql#')
+RML = Namespace('http://w3id.org/rml/')
 EX = Namespace('http://example.com/')
 
 
@@ -163,39 +161,39 @@ class NamedGraph(Scenario):
         predicate_map_iri = BNode()
         object_map_iri = BNode()
 
-        mapping.add((predicate_map_iri, R2RML.constant, predicate_value))
-        mapping.add((predicate_map_iri, RDF.type, R2RML.PredicateMap))
+        mapping.add((predicate_map_iri, RML.constant, predicate_value))
+        mapping.add((predicate_map_iri, RDF.type, RML.PredicateMap))
         if self._data_format == 'postgresql':
-            mapping.add((object_map_iri, R2RML.column, object_value))
+            mapping.add((object_map_iri, RML.column, object_value))
         else:
             mapping.add((object_map_iri, RML.reference, object_value))
-        mapping.add((object_map_iri, RDF.type, R2RML.ObjectMap))
-        mapping.add((predicate_object_map_iri, R2RML.predicateMap,
+        mapping.add((object_map_iri, RDF.type, RML.ObjectMap))
+        mapping.add((predicate_object_map_iri, RML.predicateMap,
                      predicate_map_iri))
-        mapping.add((predicate_object_map_iri, R2RML.objectMap,
+        mapping.add((predicate_object_map_iri, RML.objectMap,
                      object_map_iri))
         mapping.add((predicate_object_map_iri, RDF.type,
-                     R2RML.PredicateObjectMap))
-        mapping.add((triplesmap_iri, R2RML.predicateObjectMap,
+                     RML.PredicateObjectMap))
+        mapping.add((triplesmap_iri, RML.predicateObjectMap,
                      predicate_object_map_iri))
 
         for i in range(1, named_graphs + 1):
             if static:
                 if self._number_of_ng_s == 0:
-                    mapping.add((predicate_object_map_iri, R2RML.graph,
+                    mapping.add((predicate_object_map_iri, RML.graph,
                                 URIRef(f'http://example.org/graph{i}')))
                 else:
-                    mapping.add((predicate_object_map_iri, R2RML.graph,
+                    mapping.add((predicate_object_map_iri, RML.graph,
                                 URIRef(f'http://example.org/pom/graph{i}')))
             else:
                 graph_map_iri = BNode()
-                mapping.add((predicate_object_map_iri, R2RML.graphMap,
+                mapping.add((predicate_object_map_iri, RML.graphMap,
                              graph_map_iri))
                 if self._number_of_ng_s == 0:
-                    mapping.add((graph_map_iri, R2RML.template,
+                    mapping.add((graph_map_iri, RML.template,
                                  Literal(f'http://example.org/graph{{p{i}}}')))
                 else:
-                    mapping.add((graph_map_iri, R2RML.template,
+                    mapping.add((graph_map_iri, RML.template,
                                  Literal('http://example.org/pom/'
                                          f'graph{{p{i}}}')))
 
@@ -233,18 +231,18 @@ class NamedGraph(Scenario):
         mapping.add((logical_source_iri, RML.referenceFormulation, QL.CSV))
         mapping.add((logical_source_iri, RDF.type, RML.LogicalSource))
         mapping.add((triples_map_iri, RML.logicalSource, logical_source_iri))
-        mapping.add((triples_map_iri, R2RML.subjectMap, subject_map_iri))
-        mapping.add((triples_map_iri, RDF.type, R2RML.TriplesMap))
-        mapping.add((subject_map_iri, R2RML.template, subject_value))
+        mapping.add((triples_map_iri, RML.subjectMap, subject_map_iri))
+        mapping.add((triples_map_iri, RDF.type, RML.TriplesMap))
+        mapping.add((subject_map_iri, RML.template, subject_value))
 
         for i in range(1, named_graphs + 1):
             if static:
-                mapping.add((subject_map_iri, R2RML.graph,
+                mapping.add((subject_map_iri, RML.graph,
                              URIRef(f'http://example.org/graph{i}')))
             else:
                 graph_map_iri = BNode()
-                mapping.add((subject_map_iri, R2RML.graphMap, graph_map_iri))
-                mapping.add((graph_map_iri, R2RML.template,
+                mapping.add((subject_map_iri, RML.graphMap, graph_map_iri))
+                mapping.add((graph_map_iri, RML.template,
                              Literal(f'http://example.org/graph{{p{i}}}')))
 
         return triples_map_iri
@@ -277,21 +275,21 @@ class NamedGraph(Scenario):
         subject_map_iri = BNode()
         logical_table_iri = BNode()
 
-        mapping.add((logical_table_iri, R2RML.tableName, table_name))
-        mapping.add((logical_table_iri, RDF.type, R2RML.LogicalTable))
-        mapping.add((triples_map_iri, R2RML.logicalTable, logical_table_iri))
-        mapping.add((triples_map_iri, R2RML.subjectMap, subject_map_iri))
-        mapping.add((triples_map_iri, RDF.type, R2RML.TriplesMap))
-        mapping.add((subject_map_iri, R2RML.template, subject_value))
+        mapping.add((logical_table_iri, RML.tableName, table_name))
+        mapping.add((logical_table_iri, RDF.type, RML.LogicalTable))
+        mapping.add((triples_map_iri, RML.logicalTable, logical_table_iri))
+        mapping.add((triples_map_iri, RML.subjectMap, subject_map_iri))
+        mapping.add((triples_map_iri, RDF.type, RML.TriplesMap))
+        mapping.add((subject_map_iri, RML.template, subject_value))
 
         for i in range(1, named_graphs + 1):
             if static:
-                mapping.add((subject_map_iri, R2RML.graph,
+                mapping.add((subject_map_iri, RML.graph,
                              URIRef(f'http://example.org/graph{i}')))
             else:
                 graph_map_iri = BNode()
-                mapping.add((subject_map_iri, R2RML.graphMap, graph_map_iri))
-                mapping.add((graph_map_iri, R2RML.template,
+                mapping.add((subject_map_iri, RML.graphMap, graph_map_iri))
+                mapping.add((graph_map_iri, RML.template,
                              Literal(f'http://example.org/graph{{p{i}}}')))
 
         return triples_map_iri
@@ -305,8 +303,7 @@ class NamedGraph(Scenario):
             [R2]RML mapping as an RDFLib Graph.
         """
         mapping: Graph = Graph(base='http://ex.com/')
-        mapping.bind('rr', R2RML)
-        mapping.bind('ql', QL)
+        mapping.bind('rml', RML)
         mapping.bind('ex', EX)
 
         for i in range(1, self._number_of_tms + 1):

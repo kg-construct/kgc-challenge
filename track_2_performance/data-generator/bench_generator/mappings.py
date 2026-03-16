@@ -16,8 +16,7 @@ from bench_generator.logger import Logger
 DATA_FILE = 'data.csv'
 CSV_MAPPING_FILE = 'mapping.rml.ttl'
 RDB_MAPPING_FILE = 'mapping.r2rml.ttl'
-R2RML = Namespace('http://www.w3.org/ns/r2rml#')
-QL = Namespace('http://semweb.mmlab.be/ns/ql#')
+RML = Namespace('http://w3id.org/rml/')
 EX = Namespace('http://example.com/')
 
 
@@ -140,8 +139,7 @@ class Mappings(Scenario):
             [R2]RML mapping as an RDFLib Graph.
         """
         mapping: Graph = Graph(base='http://ex.com/')
-        mapping.bind('rr', R2RML)
-        mapping.bind('ql', QL)
+        mapping.bind('rml', RML)
         mapping.bind('ex', EX)
 
         for i in range(1, self._number_of_tms + 1):

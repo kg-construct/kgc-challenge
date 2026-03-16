@@ -14,9 +14,7 @@ from abc import ABC, abstractmethod
 
 METADATA_FILE = 'metadata.json'
 METADATA_INDENT = 4
-R2RML = Namespace('http://www.w3.org/ns/r2rml#')
-RML = Namespace('http://semweb.mmlab.be/ns/rml#')
-QL = Namespace('http://semweb.mmlab.be/ns/ql#')
+RML = Namespace('http://w3id.org/rml/')
 EX = Namespace('http://example.com/')
 
 
@@ -216,20 +214,20 @@ class Scenario(ABC):
         predicate_map_iri = BNode()
         object_map_iri = BNode()
 
-        mapping.add((predicate_map_iri, R2RML.constant, predicate_value))
-        mapping.add((predicate_map_iri, RDF.type, R2RML.PredicateMap))
+        mapping.add((predicate_map_iri, RML.constant, predicate_value))
+        mapping.add((predicate_map_iri, RDF.type, RML.PredicateMap))
         if self._data_format == 'postgresql':
-            mapping.add((object_map_iri, R2RML.column, object_value))
+            mapping.add((object_map_iri, RML.column, object_value))
         else:
             mapping.add((object_map_iri, RML.reference, object_value))
-        mapping.add((object_map_iri, RDF.type, R2RML.ObjectMap))
-        mapping.add((predicate_object_map_iri, R2RML.predicateMap,
+        mapping.add((object_map_iri, RDF.type, RML.ObjectMap))
+        mapping.add((predicate_object_map_iri, RML.predicateMap,
                      predicate_map_iri))
-        mapping.add((predicate_object_map_iri, R2RML.objectMap,
+        mapping.add((predicate_object_map_iri, RML.objectMap,
                      object_map_iri))
         mapping.add((predicate_object_map_iri, RDF.type,
-                     R2RML.PredicateObjectMap))
-        mapping.add((triplesmap_iri, R2RML.predicateObjectMap,
+                     RML.PredicateObjectMap))
+        mapping.add((triplesmap_iri, RML.predicateObjectMap,
                      predicate_object_map_iri))
 
         return predicate_object_map_iri
@@ -264,22 +262,22 @@ class Scenario(ABC):
         object_map_iri = BNode()
         join_condition_iri = BNode()
 
-        mapping.add((join_condition_iri, R2RML.child, child_value))
-        mapping.add((join_condition_iri, R2RML.parent, parent_value))
-        mapping.add((join_condition_iri, RDF.type, R2RML.JoinCondition))
-        mapping.add((predicate_map_iri, R2RML.constant, predicate_value))
-        mapping.add((predicate_map_iri, RDF.type, R2RML.PredicateMap))
-        mapping.add((object_map_iri, RDF.type, R2RML.ReferenceObjectMap))
-        mapping.add((object_map_iri, R2RML.parentTriplesMap,
+        mapping.add((join_condition_iri, RML.child, child_value))
+        mapping.add((join_condition_iri, RML.parent, parent_value))
+        mapping.add((join_condition_iri, RDF.type, RML.JoinCondition))
+        mapping.add((predicate_map_iri, RML.constant, predicate_value))
+        mapping.add((predicate_map_iri, RDF.type, RML.PredicateMap))
+        mapping.add((object_map_iri, RDF.type, RML.ReferenceObjectMap))
+        mapping.add((object_map_iri, RML.parentTriplesMap,
                      parent_triplesmap_iri))
-        mapping.add((object_map_iri, R2RML.joinCondition, join_condition_iri))
-        mapping.add((predicate_object_map_iri, R2RML.predicateMap,
+        mapping.add((object_map_iri, RML.joinCondition, join_condition_iri))
+        mapping.add((predicate_object_map_iri, RML.predicateMap,
                      predicate_map_iri))
-        mapping.add((predicate_object_map_iri, R2RML.objectMap,
+        mapping.add((predicate_object_map_iri, RML.objectMap,
                      object_map_iri))
         mapping.add((predicate_object_map_iri, RDF.type,
-                     R2RML.PredicateObjectMap))
-        mapping.add((triplesmap_iri, R2RML.predicateObjectMap,
+                     RML.PredicateObjectMap))
+        mapping.add((triplesmap_iri, RML.predicateObjectMap,
                      predicate_object_map_iri))
 
         return join_condition_iri
@@ -308,14 +306,18 @@ class Scenario(ABC):
         triples_map_iri = URIRef(f'{mapping.base}#TriplesMap{number}')
         subject_map_iri = BNode()
         logical_source_iri = BNode()
+        source_iri = BNode()
 
-        mapping.add((logical_source_iri, RML.source, source_path))
-        mapping.add((logical_source_iri, RML.referenceFormulation, QL.CSV))
+        mapping.add((source_iri, RDF.type, RML.RelativePathSource ))
+        mapping.add((source_iri, RML.root, RML.MappingDirectory))
+        mapping.add((source_iri, RML.path, source_path ))
+        mapping.add((logical_source_iri, RML.source, source_iri))
+        mapping.add((logical_source_iri, RML.referenceFormulation, RML.CSV))
         mapping.add((logical_source_iri, RDF.type, RML.LogicalSource))
         mapping.add((triples_map_iri, RML.logicalSource, logical_source_iri))
-        mapping.add((triples_map_iri, R2RML.subjectMap, subject_map_iri))
-        mapping.add((triples_map_iri, RDF.type, R2RML.TriplesMap))
-        mapping.add((subject_map_iri, R2RML.template, subject_value))
+        mapping.add((triples_map_iri, RML.subjectMap, subject_map_iri))
+        mapping.add((triples_map_iri, RDF.type, RML.TriplesMap))
+        mapping.add((subject_map_iri, RML.template, subject_value))
 
         return triples_map_iri
 
@@ -343,11 +345,11 @@ class Scenario(ABC):
         subject_map_iri = BNode()
         logical_table_iri = BNode()
 
-        mapping.add((logical_table_iri, R2RML.tableName, table_name))
-        mapping.add((logical_table_iri, RDF.type, R2RML.LogicalTable))
-        mapping.add((triples_map_iri, R2RML.logicalTable, logical_table_iri))
-        mapping.add((triples_map_iri, R2RML.subjectMap, subject_map_iri))
-        mapping.add((triples_map_iri, RDF.type, R2RML.TriplesMap))
-        mapping.add((subject_map_iri, R2RML.template, subject_value))
+        mapping.add((logical_table_iri, RML.tableName, table_name))
+        mapping.add((logical_table_iri, RDF.type, RML.LogicalTable))
+        mapping.add((triples_map_iri, RML.logicalTable, logical_table_iri))
+        mapping.add((triples_map_iri, RML.subjectMap, subject_map_iri))
+        mapping.add((triples_map_iri, RDF.type, RML.TriplesMap))
+        mapping.add((subject_map_iri, RML.template, subject_value))
 
         return triples_map_iri

@@ -18,9 +18,7 @@ from bench_generator.logger import Logger
 DATA_FILE = 'data.csv'
 RDB_MAPPING_FILE = 'mapping.r2rml.ttl'
 CSV_MAPPING_FILE = 'mapping.rml.ttl'
-R2RML = Namespace('http://www.w3.org/ns/r2rml#')
-RML = Namespace('http://semweb.mmlab.be/ns/rml#')
-QL = Namespace('http://semweb.mmlab.be/ns/ql#')
+RML = Namespace('http://w3id.org/rml/')
 EX = Namespace('http://example.com/')
 
 
@@ -174,8 +172,7 @@ class Duplicates(Scenario):
             [R2]RML mapping as an RDFLib Graph.
         """
         mapping: Graph = Graph(base='http://ex.com/')
-        mapping.bind('rr', R2RML)
-        mapping.bind('ql', QL)
+        mapping.bind('rml', RML)
         mapping.bind('ex', EX)
         subject_template = Literal('http://ex.com/table/{id}')
 
