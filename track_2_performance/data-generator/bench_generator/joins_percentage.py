@@ -17,7 +17,7 @@ from bench_generator.logger import Logger
 
 DATA_FILE1 = 'data1.csv'
 DATA_FILE2 = 'data2.csv'
-RDB_MAPPING_FILE = 'mapping.r2rml.ttl'
+RDB_MAPPING_FILE = 'mapping.rml.ttl'
 CSV_MAPPING_FILE = 'mapping.rml.ttl'
 RML = Namespace('http://w3id.org/rml/')
 EX = Namespace('http://example.com/')
