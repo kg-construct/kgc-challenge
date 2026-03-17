@@ -19,7 +19,9 @@ The set of new specification for the RDF Mapping Language (RML) established by t
 
 These test-cases are evaluated in this Track of the Challenge to determine their feasibility, correctness, etc. by applying them in implementations. If you find problems with the mappings, output, etc. please report them to the corresponding repository of each module (https://w3id.org/rml/portal).
 
-Through this Track we aim to spark development of  implementations for the new specifications and improve the test-cases. Let us know your problems with the test-cases and we will try to find a solution.
+Through this Track we aim to spark development of implementations for the new specifications and improve the test-cases. Let us know your problems with the test-cases and we will try to find a solution.
+
+**Results:** There is a template available in this [folder](./track_1_conformance/) for reporting your results. Once completed, please submit it to this repository via a Pull Request.
 
 > [!IMPORTANT]
 > RML-star is not included in this year’s challenge, as RDF 1.2 has evolved considerably and the specification needs to be adapted to the final recommendation.
