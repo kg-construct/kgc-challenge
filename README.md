@@ -26,6 +26,26 @@ Through this Track we aim to spark development of  implementations for the new s
 
 ## Track 2: Performance
 
+Knowledge graph construction of heterogeneous data has seen a lot of uptake in 
+the last decade from compliance to performance optimizations with respect to execution time. 
+Besides execution time as a metric for comparing knowledge graph construction, other metrics e.g. CPU or memory usage are not considered. 
+
+This challenge aims at sparking interest among RDF graph construction systems 
+to comply with the new RML specifications and its modules 
+while benchmarking them regarding e.g. execution time, CPU, memory usage, or a combination of these metrics.
+
+Participants will be provided with a virtual machine with uniform hardware
+resources to ensure a fair comparison of all the mapping implementations. 
+
+**Please keep an eye out for an email from the organizers for login details to
+the virtual machines**
+
+A more detailed instruction for running the challenge can be found in the
+[README](./track_2_performance/README.md) under the `./track_2_performance/`
+folder. 
+
+
+
 ## Track 3: Mapping Methodology
 
 Although RML has become the de facto standard for constructing knowledge graphs from heterogeneous data sources, the design space for defining and executing mappings is far from closed. There remains significant potential to explore alternative approaches to generating knowledge graphs from heterogeneous data, including improvements in automation, optimization, maintainability, and expressiveness.
