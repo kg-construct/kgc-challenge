@@ -68,7 +68,7 @@ Pressing it again will forcefully kill the execution and exit as quickly as poss
 screen -S eswc-kgc-challenge-2026
 
 # You enter the session, execute any command you want such as the challenge:
-./exectool run --runs=5 --root=downloads/eswc-kgc-challenge-2024
+./exectool run --runs=5 
 
 # Leave the session while letting it run by pressing: 1) CTRL+a  2) CTRL+d
 ```
