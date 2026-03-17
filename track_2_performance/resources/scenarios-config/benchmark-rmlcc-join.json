@@ -1,0 +1,55 @@
+{
+    "@id": "http://example.com/new-rml-benchmark/rml-cc-joins",
+    "name": "RML Collection and Containers benchmark (Joins)",
+    "description": "Scaling number of joins in a collection by adjusting duplication rate",
+    "instances": [
+        {
+            "@id": "http://example.com/new-rml-benchmark/rml-cc/joins#0.25duplirate",
+            "name": "1M rows, 0.25 duplication rate",
+            "generator": "RMLCCData",
+            "parameters": {
+                "data_type": "join",
+                "count": 1000000, 
+                "duplication_rate": 0.25, 
+                "data_format": "json",
+                "engine": "TODO ADD ENGINE NAME"
+            }
+        },
+        {
+            "@id": "http://example.com/new-rml-benchmark/rml-cc/joins#0.5duplirate",
+            "name": "1M rows, 0.5 duplication rate",
+            "generator": "RMLCCData",
+            "parameters": {
+                "data_type": "join",
+                "count": 1000000, 
+                "duplication_rate": 0.5, 
+                "data_format": "json",
+                "engine": "TODO ADD ENGINE NAME"
+            }
+        },
+        {
+            "@id": "http://example.com/new-rml-benchmark/rml-cc/joins#0.75duplirate",
+            "name": "1M rows, 0.75 duplication rate",
+            "generator": "RMLCCData",
+            "parameters": {
+                "data_type": "join",
+                "count": 1000000, 
+                "duplication_rate": 0.75, 
+                "data_format": "json",
+                "engine": "TODO ADD ENGINE NAME"
+            }
+        },
+        {
+            "@id": "http://example.com/new-rml-benchmark/rml-cc/joins#1.0duplirate",
+            "name": "1M rows, 1.0 duplication rate",
+            "generator": "RMLCCData",
+            "parameters": {
+                "data_type": "join",
+                "count": 1000000, 
+                "duplication_rate": 1.0, 
+                "data_format": "json",
+                "engine": "TODO ADD ENGINE NAME"
+            }
+        }
+    ]
+}

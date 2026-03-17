@@ -1,0 +1,9 @@
+numpy
+pandas
+rdflib
+jsonschema
+psycopg2-binary
+pymysql
+psutil
+requests
+timeout-decorator
