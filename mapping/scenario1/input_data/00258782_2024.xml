@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts-cct="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<efext:EformsExtension>
+					<efac:NoticeSubType>
+						<cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+					</efac:NoticeSubType>
+					<efac:Organizations>
+						<efac:Organization>
+							<efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+							<efbc:AcquiringCPBIndicator>true</efbc:AcquiringCPBIndicator>
+							<efbc:AwardingCPBIndicator>true</efbc:AwardingCPBIndicator>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0001</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Logistik Zentrum Niedersachsen Landesbetrieb - Außenstelle Hannover</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Podbielskistraße 166</cbc:StreetName>
+									<cbc:CityName>Hannover</cbc:CityName>
+									<cbc:PostalZone>30177</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE929</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>03-7075700000-96</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 51189848102</cbc:Telephone>
+									<cbc:Telefax>+49 51189848199</cbc:Telefax>
+									<cbc:ElectronicMail>jan.heberling@lzn.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+						<efac:Organization>
+							<efac:Company>
+								<cac:PartyIdentification>
+									<cbc:ID>ORG-0002</cbc:ID>
+								</cac:PartyIdentification>
+								<cac:PartyName>
+									<cbc:Name languageID="DEU">Vergabekammer Niedersachsen beim Nds. Ministerium für Wirtschaft, Verkehr, Bauen und Digitalisierung</cbc:Name>
+								</cac:PartyName>
+								<cac:PostalAddress>
+									<cbc:StreetName>Auf der Hude 2</cbc:StreetName>
+									<cbc:CityName>Lüneburg</cbc:CityName>
+									<cbc:PostalZone>21339</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts-lvl3">DE935</cbc:CountrySubentityCode>
+									<cac:Country>
+										<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+									</cac:Country>
+								</cac:PostalAddress>
+								<cac:PartyLegalEntity>
+									<cbc:CompanyID>t:04131153308</cbc:CompanyID>
+								</cac:PartyLegalEntity>
+								<cac:Contact>
+									<cbc:Telephone>+49 4131153308</cbc:Telephone>
+									<cbc:Telefax>+49 4131152943</cbc:Telefax>
+									<cbc:ElectronicMail>vergabekammer@mw.niedersachsen.de</cbc:ElectronicMail>
+								</cac:Contact>
+							</efac:Company>
+						</efac:Organization>
+					<efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+				<efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00258782-2024</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">86/2024</efbc:GazetteID><efbc:PublicationDate>2024-05-02Z</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+	<cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+	<cbc:ID schemeName="notice-id">dd4ca65c-1d8b-412c-a4f2-150c5b2852ea</cbc:ID>
+	<cbc:ContractFolderID>fa4b8f7c-b9fb-4967-90ac-a437066ef175</cbc:ContractFolderID>
+	<cbc:IssueDate>2024-04-30+02:00</cbc:IssueDate>
+	<cbc:IssueTime>11:26:20+02:00</cbc:IssueTime>
+	<cbc:VersionID>01</cbc:VersionID>
+	<cbc:RequestedPublicationDate>2024-04-30+02:00</cbc:RequestedPublicationDate>
+	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+	<cbc:NoticeLanguageCode listID="eu-official-language">DEU</cbc:NoticeLanguageCode>
+	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl-ra</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
+		<cac:ContractingActivity>
+			<cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+		</cac:ContractingActivity>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID>ORG-0001</cbc:ID>
+			</cac:PartyIdentification>
+		<cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-0003</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+		<cac:RequiredFinancialGuarantee>
+			<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+		</cac:RequiredFinancialGuarantee>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>vgv</cbc:ID>
+		</cac:ProcurementLegislationDocumentReference>
+		<cac:CallForTendersDocumentReference>
+			<cbc:ID>SomeTenderDocID1</cbc:ID>
+			<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+			<cbc:LanguageID>DEU</cbc:LanguageID>
+		</cac:CallForTendersDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+				<cbc:Description languageID="DEU">Zwingende bzw. fakultative Ausschlussgründe nach §§ 123 bis 126 GWB</cbc:Description>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:ContractExecutionRequirement>
+			<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+		</cac:ContractExecutionRequirement>
+		<cac:TenderRecipientParty>
+			<cbc:EndpointID>https://vergabe.niedersachsen.de/Satellite/notice/CXQ6YYHD2N8</cbc:EndpointID>
+		</cac:TenderRecipientParty>
+		<cac:AppealTerms>
+			<cac:PresentationPeriod>
+				<cbc:Description languageID="DEU">Genaue Angaben zu den Fristen für die Einlegung von Rechtsbehelfen: Die Vergabestelle weist ausdrücklich auf die für interessierte Unternehmen sowie Bewerber/Bieter und Bewerber-/Bietergemeinschaften bestehenden Rügeobliegenheiten und die Präklusionsregelungen gemäß § 160 Abs. 3 GWB hinsichtlich der Behauptung von Verstößen gegen die Bestimmungen über das Vergabeverfahren hin.  § 160 Abs. 3 GWB lautet: "Der Antrag ist unzulässig, soweit: 1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt." Die Vergabestelle weist zudem ausdrücklich auf § 134 Abs. 1 und 2 GWB hin. § 134 Abs. 1 und 2 GWB lauten: (1) Öffentliche Auftraggeber haben die Bieter, deren Angebote nicht berücksichtigt werden sollen, über den Namen des Unternehmens, dessen Angebot angenommen werden soll, über die Gründe der vorgesehenen Nichtberücksichtigung ihres Angebots und über den frühesten Zeitpunkt des Vertragsschlusses unverzüglich in Textform zu informieren. Dies gilt auch für Bewerber, denen keine Information über die Ablehnung ihrer Bewerbung zur Verfügung gestellt wurde, bevor die Mitteilung über die Zuschlagsentscheidung an die betroffenen Bieter ergangen ist. (2) Ein Vertrag darf erst 15 Kalendertage nach Absendung der Information nach Absatz 1 geschlossen werden. Wird die Information auf elektronischem Weg oder per Fax versendet, verkürzt sich die Frist auf zehn Kalendertage. Die Frist beginnt am Tag nach der Absendung der Information durch den Auftraggeber; auf den Tag des Zugangs beim betroffenen Bieter und Bewerber kommt es nicht an." § 135 Absatz 1 Nummer 2 GWB lautet: (1) Ein öffentlicher Auftrag ist von Anfang an unwirksam, wenn der öffentliche Auftraggeber [...] (2) den Auftrag ohne vorherige Veröffentlichung einer Bekanntmachung im Amtsblatt der Europäischen Union vergeben hat, ohne dass dies aufgrund Gesetzes gestattet ist, und dieser Verstoß in einem Nachprüfungsverfahren festgestellt worden ist."</cbc:Description>
+			</cac:PresentationPeriod>
+			<cac:AppealReceiverParty>
+				<cac:PartyIdentification>
+					<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AppealReceiverParty>
+		</cac:AppealTerms>
+		<cac:Language>
+			<cbc:ID>DEU</cbc:ID>
+		</cac:Language>
+	</cac:TenderingTerms>
+	<cac:TenderingProcess>
+		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+		<cbc:AccessToolsURI>https://vergabe.niedersachsen.de/Satellite/notice/CXQ6YYHD2N8</cbc:AccessToolsURI>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
+		<cac:AuctionTerms>
+			<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+		</cac:AuctionTerms>
+		<cac:FrameworkAgreement>
+			<cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+		</cac:FrameworkAgreement>
+	</cac:TenderingProcess>
+	<cac:ProcurementProject>
+		<cbc:ID schemeName="internalID">091-RV-BDS/2023-03.411</cbc:ID>
+		<cbc:Name languageID="DEU">Lieferung von Bürodrehstühlen für 3-dimensionales Sitzen</cbc:Name>
+		<cbc:Description languageID="DEU">Dem LZN obliegt die Beschaffung von Waren und Dienstleistungen für die unmittelbare niedersächsische Landesverwaltung (vgl. § 2 der Betriebsanweisung des LZN). Mit Zustimmung seiner Aufsichtsbehörde kann das LZN weitere Aufgaben für öffentlich-rechtliche Bedarfsträger innerhalb und außerhalb der niedersächsischen Landesverwaltung sowie für privatrechtliche Gesellschaften in vollständiger Eigentümerschaft der öffentlichen Hand übernehmen (vgl. § 3 Betriebsanweisung).  In dieser Zuständigkeit schreibt das LZN eine Rahmenvereinbarung über die Lieferung von Bürodrehstühlen für 3-dimensionales Sitzen (§ 21 VgV) aus. Abrufberechtigt sind alle Dienststellen der unmittelbaren Landesverwaltung Niedersachsen inkl. der niedersächsischen Inseln, Einzellieferungen an Home-Office-Arbeitsplätze sowie die Behörden und Bildungseinrichtungen im Geschäftsbereich des Thüringer Ministeriums für Inneres und Kommunales.  Nähere Einzelheiten zu Art und Umfang des Auftrags sind der Leistungsbeschreibung - Technischer Teil (Teil B) zu entnehmen.  Die Artikel werden in den Web-Shop des Logistik Zentrum Niedersachsen eingestellt und als Online-Bestellungen abgerufen.</cbc:Description>
+		<cbc:ProcurementTypeCode listName="eforms-contract-nature">supplies</cbc:ProcurementTypeCode>
+		<cbc:Note languageID="DEU">Bekanntmachungs-ID: CXQ6YYHD2N8</cbc:Note>
+		<cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+		<cac:RequestedTenderTotal>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efbc:FrameworkMaximumAmount currencyID="EUR">458400.00</efbc:FrameworkMaximumAmount>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:EstimatedOverallContractAmount currencyID="EUR">382000.00</cbc:EstimatedOverallContractAmount>
+		</cac:RequestedTenderTotal>
+		<cac:MainCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">39130000</cbc:ItemClassificationCode>
+		</cac:MainCommodityClassification>
+		<cac:AdditionalCommodityClassification>
+			<cbc:ItemClassificationCode listName="cpv">39110000</cbc:ItemClassificationCode>
+		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Erfüllungsorte sind die in den Bestellungen genannten Standorte der unmittelbaren Landesbehörden des Landes Niedersachsen sowie ggf. Lieferanschriften an Home-Office-Plätze und sowie die Behörden und Bildungseinrichtungen im Geschäftsbereich des Thüringer Ministeriums für Inneres und Kommunales.   Gerichtsstand ist Hann. Münden als Sitz des LZN.</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE929</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
+				<cac:Country>
+					<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
+		<cac:ContractExtension>
+			<cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
+			<cac:Renewal>
+				<cac:Period>
+					<cbc:Description languageID="DEU">Vertragsbeginn ist voraussichtlich der 1. Oktober 2024. Es besteht eine erste Vertragslaufzeit von 12 Monaten sowie optional drei einseitige Vertragsverlängerungen durch den Auftraggeber zu jeweils höchstens 12 weiteren Monaten. Der Vertrag verlängert sich stillschweigend jeweils um ein weiteres Jahr, wenn er nicht vom Auftraggeber sechs Monate vor Ablauf des Jahres gekündigt wird und endet automatisch spätestens nach vier Jahren, ohne dass es einer Kündigung durch den Auftraggeber bedarf.</cbc:Description>
+				</cac:Period>
+			</cac:Renewal>
+		</cac:ContractExtension>
+	</cac:ProcurementProject>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:Description languageID="DEU">Um die Eignung, d. h. das Nichtvorliegen von Ausschlussgründen gem. §§ 123, 124 GWB, die Befähigung und Erlaubnis zur Berufsausübung, die wirtschaftliche und finanzielle sowie die technische und berufliche Leistungsfähigkeit der Bieter beurteilen zu können, hat der Bieter die in dem in den Vergabeunter-lagen enthaltenen Dokument "Auflistung der Bieternachweise" genannten Nachweise, Erklärungen und Angaben (Unterlagen) mit Angebotsabgabe vorzulegen.  Im Falle einer Bietergemeinschaft sind sämtliche unter der Nr. 1 und 6 der Auflistung der Bieternachweise geforderten Angaben jeweils von allen Mitgliedern der Bietergemeinschaft sowie die unter Nr. 4 genannte "Erklärung der Bietergemeinschaft" vorzulegen. Die unter den Nrn. 2, 3 (beide bei Bedarf) der Auflistung der Bieternachweise aufgeführten Unterlagen sind nur von dem bevollmächtigten Mitglied auszufüllen. Die Nachforderung von Unterlagen gem. § 56 Abs. 2 und 3 VgV steht im Ermessen des Auftraggebers. Die Bieter haben keinen Anspruch auf Nachforderung/Nachreichung von Unterlagen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:Description languageID="DEU">Zum Nachweis der technischen und beruflichen Leistungsfähigkeit (Fachkunde), hat der Bieter eine Referenzliste der wesentlichen, in den letzten drei Jahren erbrachten Leistungen, die mit der ausgeschriebenen Leistung in Art und Umfang vergleichbar sind, unter Angabe des Auftragswertes, des Auftragsumfangs, des Auftragszeitraums sowie des Auftraggebers inkl. Ansprechpartner und Telefonnummer vorzulegen. Eine entsprechende Tabelle ist in dem beigefügten Vordruck "Angaben zur Firma und zum Firmenprofil" enthalten.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:Description languageID="DEU">Zur Feststellung der wirtschaftlichen und finanziellen Leistungsfähigkeit hat der Bieter in dem Vordruck "Angaben zur Firma und zum Firmenprofil" - sofern möglich - auch Angaben hinsichtlich der Bonität des Unternehmens (insbesondere der Geschäftskontenführung, der finanziellen Gesamtverhältnisse, des Vorliegens von Beanstandungen in der Geschäftsbeziehung zum Kreditinstitut, des Eingehens von er-füllbaren Verpflichtungen und der Zahlung von fälligen Rechnungen) und - sofern entsprechende Anga-ben verfügbar sind - des Umsatzes (Umsatz bezüglich der Leistungsart, die Gegenstand der Vergabe ist sowie Gesamtumsatz) der letzten drei abgeschlossenen Jahre zu machen.  Können die vorstehenden Angaben aufgrund einer Neugründung des Unternehmens oder aus einem anderen berechtigten Grund noch nicht (vollständig) getätigt werden, hat der Bieter zum Nachweis seiner Bonität mit Angebotsabgabe eine entsprechende Erklärung seines Kreditinstituts vorzulegen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:SelectionCriteria>
+								<cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+								<cbc:Description languageID="DEU">Der Bieter hat in dem Vordruck "Angaben zur Firma und zum Firmenprofil" des Weiteren Angaben zur Unternehmensgröße, zur Service- und Vertriebsstruktur, zum Personalbestand sowie zum Nichtvorliegen von Ausschlussgründen zu machen.   Aufgrund des Art. 5k der Verordnung (EU) 2022/576 des Rates vom 8. April 2022 zur Änderung der Ver-ordnung (EU) Nr. 833/2014 (Sanktions-Verordnung) über restriktive Maßnahmen angesichts der Handlungen Russlands, die die Lage in der Ukraine destabilisieren, gilt ab sofort ein Zuschlagsverbot im Hinblick auf Unternehmen, die einen Bezug zu Russland haben. Daher hat der Bieter sowie jedes Mitglied einer Bietergemeinschaft mit der diesen Vergabeunterlagen beigefügten Eigenerklärung (Nr. 5 der Auflistung der Bieternachweise) verbindlich zu bestätigen, dass kein Bezug zu Russland im Sinne der Vorschrift vorliegt. Wird diese Erklärung nicht abgegeben, wird das Angebot gem. § 57 Abs. 1 Nr. 2 VgV zwingend von der Wertung ausgeschlossen.</cbc:Description>
+							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
+			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+			<cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+			<cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+			<cac:RequiredFinancialGuarantee>
+				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+			</cac:RequiredFinancialGuarantee>
+			<cac:ProcurementLegislationDocumentReference>
+				<cbc:ID>vgv</cbc:ID>
+			</cac:ProcurementLegislationDocumentReference>
+			<cac:CallForTendersDocumentReference>
+				<cbc:ID>SomeTenderDocID1</cbc:ID>
+				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+				<cbc:LanguageID>DEU</cbc:LanguageID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://vergabe.niedersachsen.de/Satellite/notice/CXQ6YYHD2N8/documents</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
+			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-some</cbc:TendererRequirementTypeCode>
+					<cbc:Description languageID="DEU">Die Nachforderung von Unterlagen gem. § 56 Abs. 2 und 3 VgV steht im Ermessen des Auftraggebers. Die Bieter haben keinen Anspruch auf Nachforderung/Nachreichung von Unterlagen.</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+				<cbc:Description languageID="DEU">Mit der Abgabe des Angebots über die Vergabeplattform des Landes Niedersachsen bestätigt der Bieter, dass er die in Ziffer 4.2 der Verwaltungsvorschriften zur Nachhaltigen Beschaffung (VV-NB) genannten Leistungen nicht von seiner Leistung umfasst hat und die dort genannten Stoffe nicht zur Leistungserbringung verwendet.  Allgemeine Vertragsbedingungen für die Ausführung von Leistungen (VOL/B), Zusätzliche Vertragsbedingungen (ZVB) für die Ausführung von Lieferungen und Leistungen des Landes Niedersachsen, Vergabeunterlagen, bei Skontogewährung 14 Tage Zahlungsziel, die Vergabeunterlagen sehen im Falle der Überschreitung von Ausführungsfristen Vertragsstrafen vor.</cbc:Description>
+			</cac:ContractExecutionRequirement>
+			<cac:AwardingTerms>
+				<cac:AwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>40.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Preis</cbc:Name>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>20.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Technik</cbc:Name>
+					</cac:SubordinateAwardingCriterion>
+					<cac:SubordinateAwardingCriterion>
+						<ext:UBLExtensions>
+							<ext:UBLExtension>
+								<ext:ExtensionContent>
+									<efext:EformsExtension>
+										<efac:AwardCriterionParameter>
+											<efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+											<efbc:ParameterNumeric>40.0</efbc:ParameterNumeric>
+										</efac:AwardCriterionParameter>
+									</efext:EformsExtension>
+								</ext:ExtensionContent>
+							</ext:UBLExtension>
+						</ext:UBLExtensions>
+						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+						<cbc:Name languageID="DEU">Sitzkomfort</cbc:Name>
+					</cac:SubordinateAwardingCriterion>
+				</cac:AwardingCriterion>
+			</cac:AwardingTerms>
+			<cac:AdditionalInformationParty>
+				<cac:PartyIdentification>
+					<cbc:ID>ORG-0001</cbc:ID>
+				</cac:PartyIdentification>
+			</cac:AdditionalInformationParty>
+			<cac:TenderRecipientParty>
+				<cbc:EndpointID>https://vergabe.niedersachsen.de/Satellite/notice/CXQ6YYHD2N8</cbc:EndpointID>
+			</cac:TenderRecipientParty>
+			<cac:AppealTerms>
+				<cac:PresentationPeriod>
+					<cbc:Description languageID="DEU">Genaue Angaben zu den Fristen für die Einlegung von Rechtsbehelfen: Die Vergabestelle weist ausdrücklich auf die für interessierte Unternehmen sowie Bewerber/Bieter und Bewerber-/Bietergemeinschaften bestehenden Rügeobliegenheiten und die Präklusionsregelungen gemäß § 160 Abs. 3 GWB hinsichtlich der Behauptung von Verstößen gegen die Bestimmungen über das Vergabeverfahren hin.  § 160 Abs. 3 GWB lautet: "Der Antrag ist unzulässig, soweit: 1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von zehn Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt, 2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden, 4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind. Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrags nach § 135 Absatz 1 Nummer 2. § 134 Absatz 1 Satz 2 bleibt unberührt." Die Vergabestelle weist zudem ausdrücklich auf § 134 Abs. 1 und 2 GWB hin. § 134 Abs. 1 und 2 GWB lauten: (1) Öffentliche Auftraggeber haben die Bieter, deren Angebote nicht berücksichtigt werden sollen, über den Namen des Unternehmens, dessen Angebot angenommen werden soll, über die Gründe der vorgesehenen Nichtberücksichtigung ihres Angebots und über den frühesten Zeitpunkt des Vertragsschlusses unverzüglich in Textform zu informieren. Dies gilt auch für Bewerber, denen keine Information über die Ablehnung ihrer Bewerbung zur Verfügung gestellt wurde, bevor die Mitteilung über die Zuschlagsentscheidung an die betroffenen Bieter ergangen ist. (2) Ein Vertrag darf erst 15 Kalendertage nach Absendung der Information nach Absatz 1 geschlossen werden. Wird die Information auf elektronischem Weg oder per Fax versendet, verkürzt sich die Frist auf zehn Kalendertage. Die Frist beginnt am Tag nach der Absendung der Information durch den Auftraggeber; auf den Tag des Zugangs beim betroffenen Bieter und Bewerber kommt es nicht an." § 135 Absatz 1 Nummer 2 GWB lautet: (1) Ein öffentlicher Auftrag ist von Anfang an unwirksam, wenn der öffentliche Auftraggeber [...] (2) den Auftrag ohne vorherige Veröffentlichung einer Bekanntmachung im Amtsblatt der Europäischen Union vergeben hat, ohne dass dies aufgrund Gesetzes gestattet ist, und dieser Verstoß in einem Nachprüfungsverfahren festgestellt worden ist."</cbc:Description>
+				</cac:PresentationPeriod>
+				<cac:AppealReceiverParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealReceiverParty>
+			</cac:AppealTerms>
+			<cac:Language>
+				<cbc:ID>DEU</cbc:ID>
+			</cac:Language>
+			<cac:PostAwardProcess>
+				<cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+				<cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+			</cac:PostAwardProcess>
+		</cac:TenderingTerms>
+		<cac:TenderingProcess>
+			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cbc:AccessToolsURI>https://vergabe.niedersachsen.de/Satellite/notice/CXQ6YYHD2N8</cbc:AccessToolsURI>
+			<cac:TenderSubmissionDeadlinePeriod>
+				<cbc:EndDate>2024-05-31+02:00</cbc:EndDate>
+				<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:AdditionalInformationRequestPeriod>
+				<cbc:EndDate>2024-05-21+02:00</cbc:EndDate>
+				<cbc:EndTime>00:00:00+02:00</cbc:EndTime>
+			</cac:AdditionalInformationRequestPeriod>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2024-05-31+02:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>10:01:00+02:00</cbc:OccurrenceTime>
+			</cac:OpenTenderEvent>
+			<cac:AuctionTerms>
+				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+			</cac:AuctionTerms>
+			<cac:FrameworkAgreement>
+				<cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+			</cac:FrameworkAgreement>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+			<cac:ContractingSystem>
+				<cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+			</cac:ContractingSystem>
+		</cac:TenderingProcess>
+		<cac:ProcurementProject>
+			<cbc:ID schemeName="internalID">091-RV-BDS/2023-03.411</cbc:ID>
+			<cbc:Name languageID="DEU">Lieferung von Bürodrehstühlen für 3-dimensionales Sitzen</cbc:Name>
+			<cbc:Description languageID="DEU">Dem LZN obliegt die Beschaffung von Waren und Dienstleistungen für die unmittelbare niedersächsische Landesverwaltung (vgl. § 2 der Betriebsanweisung des LZN). Mit Zustimmung seiner Aufsichtsbehörde kann das LZN weitere Aufgaben für öffentlich-rechtliche Bedarfsträger innerhalb und außerhalb der niedersächsischen Landesverwaltung sowie für privatrechtliche Gesellschaften in vollständiger Eigentümerschaft der öffentlichen Hand übernehmen (vgl. § 3 Betriebsanweisung).  In dieser Zuständigkeit schreibt das LZN eine Rahmenvereinbarung über die Lieferung von Bürodrehstühlen für 3-dimensionales Sitzen (§ 21 VgV) aus. Abrufberechtigt sind alle Dienststellen der unmittelbaren Landesverwaltung Niedersachsen inkl. der niedersächsischen Inseln, Einzellieferungen an Home-Office-Arbeitsplätze sowie die Behörden und Bildungseinrichtungen im Geschäftsbereich des Thüringer Ministeriums für Inneres und Kommunales.  Nähere Einzelheiten zu Art und Umfang des Auftrags sind der Leistungsbeschreibung - Technischer Teil (Teil B) zu entnehmen.</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+			<cbc:Note languageID="DEU">#Besonders geeignet für:selbst#
+
+
+Gemäß Vergabeunterlagen gelten die Zusätzlichen Vertragsbedingungen (ZVB) für die Ausführung von Lieferungen und Leistungen des Landes Niedersachsen.  Rechtsform bei der Gründung einer Bietergemeinschaft: Gesamtschuldnerisch haftend mit einem bevollmächtigten Vertreter.</cbc:Note>
+			<cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="strategic-procurement">env-imp</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:ProcurementAdditionalType>
+				<cbc:ProcurementTypeCode listName="environmental-impact">pollu-prev</cbc:ProcurementTypeCode>
+			</cac:ProcurementAdditionalType>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">39130000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">39110000</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="DEU">Erfüllungsorte sind die in den Bestellungen genannten Standorte der unmittelbaren Landesbehörden des Landes Niedersachsen sowie ggf. Lieferanschriften an Home-Office-Plätze und sowie die Behörden und Bildungseinrichtungen im Geschäftsbereich des Thüringer Ministeriums für Inneres und Kommunales.   Gerichtsstand ist Hann. Münden als Sitz des LZN.</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">DE929</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
+					<cac:Country>
+						<cbc:IdentificationCode>DEU</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
+			<cac:ContractExtension>
+				<cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
+				<cac:Renewal>
+					<cac:Period>
+						<cbc:Description languageID="DEU">Vertragsbeginn ist voraussichtlich der 1. Oktober 2024. Es besteht eine erste Vertragslaufzeit von 12 Monaten sowie optional drei einseitige Vertragsverlängerungen durch den Auftraggeber zu jeweils höchstens 12 weiteren Monaten. Der Vertrag verlängert sich stillschweigend jeweils um ein weiteres Jahr, wenn er nicht vom Auftraggeber sechs Monate vor Ablauf des Jahres gekündigt wird und endet automatisch spätestens nach vier Jahren, ohne dass es einer Kündigung durch den Auftraggeber bedarf.</cbc:Description>
+					</cac:Period>
+				</cac:Renewal>
+			</cac:ContractExtension>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+</ContractNotice>

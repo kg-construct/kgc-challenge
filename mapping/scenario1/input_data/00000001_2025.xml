@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://np-plitvicka-jezera.hr</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="HRV">Javna ustanova Nacionalni park Plitvička jezera</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Josipa Jovića 19</cbc:StreetName>
+                  <cbc:CityName>Plitvička Jezera</cbc:CityName>
+                  <cbc:PostalZone>53231</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">HR032</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">HRV</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>91109303119</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Martina Požega</cbc:Name>
+                  <cbc:Telephone>+385 53751039</cbc:Telephone>
+                  <cbc:ElectronicMail>martina.pozega@np-plitvicka-jezera.hr</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.dkom.hr/</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="HRV">Državna komisija za kontrolu postupaka javne nabave</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Ulica grada Vukovara 23/V</cbc:StreetName>
+                  <cbc:CityName>Zagreb</cbc:CityName>
+                  <cbc:PostalZone>10000</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">HR050</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">HRV</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>95857869241</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Kontakt</cbc:Name>
+                  <cbc:Telephone>+385 14559 930</cbc:Telephone>
+                  <cbc:ElectronicMail>dkom@dkom.hr</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.nn.hr/</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="HRV">Narodne novine d.d.</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Savski gaj  XIII. 6</cbc:StreetName>
+                  <cbc:CityName>Zagreb</cbc:CityName>
+                  <cbc:PostalZone>10020</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">HR050</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">HRV</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>TED94</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID>HR64546066176</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>EOJN Helpdesk</cbc:Name>
+                  <cbc:Telephone>+385 16652889</cbc:Telephone>
+                  <cbc:ElectronicMail>eojn@nn.hr</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00000001-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">1/2025</efbc:GazetteID><efbc:PublicationDate>2025-01-02+01:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">671cfb3c-1ca2-4d4b-835e-015ca35ad0c4</cbc:ID>
+  <cbc:ContractFolderID>fc0c326c-76d9-4eb1-8540-486560d9c965</cbc:ContractFolderID>
+  <cbc:IssueDate>2024-12-30+01:00</cbc:IssueDate>
+  <cbc:IssueTime>18:00:00.0000000+01:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>HRV</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cbc:BuyerProfileURI>https://np-plitvicka-jezera.hr</cbc:BuyerProfileURI>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">env-pro</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:ServiceProviderParty>
+        <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+        <cac:Party>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:Party>
+      </cac:ServiceProviderParty>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingTerms>
+    <cac:TendererQualificationRequest>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HRV">Sudjelovanje u zločinačkoj organizaciji</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HRV">Korupcija</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HRV">Prijevara</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HRV">Kaznena djela terorizma ili kaznena djela povezana s terorističkim aktivnostima</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HRV">Pranje novca ili financiranje terorizma</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HRV">Rad djece i drugi oblici trgovanja ljudima</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HRV">Plaćanje poreza</cbc:Description>
+      </cac:SpecificTendererRequirement>
+      <cac:SpecificTendererRequirement>
+        <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+        <cbc:Description languageID="HRV">Plaćanje obveza za mirovinsko i zdravstveno osiguranje</cbc:Description>
+      </cac:SpecificTendererRequirement>
+    </cac:TendererQualificationRequest>
+  </cac:TenderingTerms>
+  <cac:TenderingProcess>
+    <cbc:Description languageID="HRV">Otvoreni postupak</cbc:Description>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID schemeName="InternalID">VV-22/24</cbc:ID>
+    <cbc:Name languageID="HRV">STRUČNI NADZOR NAD RADOVIMA NA REKONSTRUKCIJI I OPREMANJU- HOTEL BELLEVUE</cbc:Name>
+    <cbc:Description languageID="HRV">Predmet nabave je usluga stručnog nadzora nad radovima na rekonstrukciji i opremanju hotela Bellevue a sukladno Zakonu o gradnji (NN 153/13, 20/17, 39/19, 125/19) i ostalim važećim propisima.</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+    <cac:RequestedTenderTotal>
+      <cbc:EstimatedOverallContractAmount currencyID="EUR">223000</cbc:EstimatedOverallContractAmount>
+    </cac:RequestedTenderTotal>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">71247000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+    <cac:TenderingTerms>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                <cbc:Name languageID="HRV">Upis u registar</cbc:Name>
+                <cbc:Description languageID="HRV">Detalji opisani u dokumentaciji o nabavi</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                <cbc:Name languageID="HRV">Ukupni godišnji promet</cbc:Name>
+                <cbc:Description languageID="HRV">Detalji opisani u dokumentaciji o nabavi</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                <cbc:Name languageID="HRV">Popis glavnih usluga</cbc:Name>
+                <cbc:Description languageID="HRV">Detalji opisani u dokumentaciji o nabavi</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                <cbc:Name languageID="HRV">Obrazovne i stručne kvalifikacije</cbc:Name>
+                <cbc:Description languageID="HRV">Detalji opisani u dokumentaciji o nabavi</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+      <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+      <cac:RequiredFinancialGuarantee>
+        <cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
+        <cbc:Description languageID="HRV">Jamstvo se može dostaviti u obliku:
+-	solemnizirane bjanko zadužnice,
+-	solemnizirane zadužnice,
+-	bankarske garancije na poziv,
+-	novčanog pologa na račun Naručitelja (depozit)
+
+Naručitelj će naplatiti jamstvo za ozbiljnost ponude u slučajevima odustajanja ponuditelja od svoje ponude u roku njezine valjanosti, nedostavljanja ažuriranih popratnih dokumenata sukladno čl. 263. ZJN neprihvaćanja ispravka računske greške, odbijanja potpisivanja Ugovora ili nedostavljanja jamstva za uredno ispunjenje Ugovora.
+
+Ukoliko ponuditelj dostavlja jamstvo u obliku bankarske garancije na poziv, u garanciji mora biti navedeno sljedeće:
+-	Da je korisnik garancije Javna ustanova Nacionalni park Plitvička jezera
+-	Da se garant obvezuje bezuvjetno, neopozivo i na prvi pismeni poziv korisnika garancije, bez prigovora isplatiti iznos od 6.500,00 EUR bez PDV-a u slučaju: 
+-	Odustajanja ponuditelja od svoje ponude u roku njezine valjanosti,
+-	Nedostavljanja ažuriranih popratnih dokumenata sukladno članku 263. ZJN,
+-	Neprihvaćanja ispravka računske greške,
+-	Odbijanja potpisivanja Ugovora ili 
+-	Nedostavljanja jamstva za uredno ispunjenje Ugovora
+
+Naručitelju nije prihvatljivo da u tekstu bankarske garancije na poziv, poslovna banka izdavatelj bankarske garancije na poziv uvjetuje korisniku garancije (Naručitelju) obvezu da zahtjev za aktiviranje bankarske garancije potpisan od ovlaštene osobe po zakonu za zastupanje mora biti s ovjerenim potpisom od strane javnog bilježnika. Takva bankarska garancija na poziv s takvim uvjetom bit će ocijenjena nevažećom i ponuda takvog ponuditelja će biti odbijena.
+
+U bankarskoj garanciji nije dopušteno uvjetovanje isplate putem treće osobe (npr. poslovne banke korisnika i sl.) kao niti zahtjev za dostavom dokaza o ostvarenju uvjeta za naplatu garancije.
+
+U slučaju zajednice gospodarskih subjekata (zajednice ponuditelja) jamstvo za ozbiljnost ponude se može dati na slijedeći način: 
+•	Jamstvo mora glasiti na sve članove zajednice (svi članovi zajednice ponuditelja su nalogodavci na bankarskoj garanciji). 
+•	Jedan član zajednice može biti nalogodavac, međutim jamstvo mora sadržavati navod o tome da je riječ o zajednici ponuditelja (gospodarskih subjekata) i navedeni članovi zajednice ponuditelja
+•	Dopušteno je da zajednica gospodarskih subjekata dostavi jamstvo za ozbiljnost ponude koje se sastoji od više jamstava, koje daju članovi zajednice gospodarskih subjekata, a koje u ukupnom zbroju predstavljaju traženu visinu jamstva za ozbiljnost ponude. U tom slučaju pojedino jamstvo treba sadržavati jasan i nedvosmislen navod o tome tko je gospodarski subjekt, tj. jamstvo za ozbiljnost ponude mora glasiti na zajednicu gospodarskih subjekata odnosno trebaju biti navedeni podaci o svim članovima zajednice gospodarskih subjekata bez obzira na to koji od članova zajednice gospodarskih subjekata dostavlja jamstvo u sklopu ponude.
+
+NAPOMENA: Za slučaj da se jamstvo dostavlja od banke koja nema sjedište u Republici Hrvatskoj, gospodarski subjekt je dužan dostaviti jamstvo sa potvrdom jamstva banke koja ima sjedište u Republici Hrvatskoj, s tim da je naručitelj ovlašten zahtjev iz jamstva podnijeti banci izdavatelja garancije kao i banci koja je jamstvo potvrdila. Nadalje, propisano je da bankovna garancija mora sadržavati navod banke sa sjedištem u Republici Hrvatskoj da potvrđuje jamstvo strane banke (samo u slučaju da jamstvo izdaje banka koja nema sjedište u Republici Hrvatskoj).
+
+Jamstvo ne smije biti ni na koji način oštećeno (bušenjem, klamanjem i sl.), a što se ne odnosi na uvezivanje od strane javnog bilježnika ili primjerice prijevod i uvezivanje od strane ovlaštenog sudskog tumača.
+
+Jamstvo za ozbiljnost ponude dostavlja se u izvorniku.
+Jamstvo za ozbiljnost ponude mora trajati minimalno sukladno roku valjanosti ponude. Gospodarski subjekt može dostaviti jamstvo koje je duže od roka valjanosti ponude.
+Ako tijekom postupka javne nabave istekne rok valjanosti ponude i jamstva za ozbiljnost ponude, Naručitelj će prije odabira zatražiti produženje roka valjanosti ponude i jamstva od ponuditelja koji je podnio ekonomski najpovoljniju ponudu u primjerenom roku ne kraćem od 5 dana. 
+Zatvorenu omotnicu ponuditelj, bez obzira na način slanja obvezno mora dostaviti prije isteka roka za dostavu ponuda na adresu sjedišta Naručitelja.
+</cbc:Description>
+      </cac:RequiredFinancialGuarantee>
+      <cac:CallForTendersDocumentReference>
+        <cbc:ID>48814f9d-bc56-4f68-b9e6-e6013a09beaf-12896</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cbc:LanguageID>HRV</cbc:LanguageID>
+        <cbc:DocumentStatusCode listName="document-status">official</cbc:DocumentStatusCode>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://eojn.hr/tender-eo/33135</cbc:URI>
+            <cbc:DocumentHash>JHEV5eUX6oWp8GokPNywUHsH7wdtLcbdbOEfzy7h0rQ=</cbc:DocumentHash>
+            <cbc:FileName>Rok, način i uvjeti plaćanja.pdf</cbc:FileName>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:CallForTendersDocumentReference>
+        <cbc:ID>97597d7c-a23e-4eee-8ca1-b1f3993c43d3-3560</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cbc:LanguageID>HRV</cbc:LanguageID>
+        <cbc:DocumentStatusCode listName="document-status">official</cbc:DocumentStatusCode>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://eojn.hr/tender-eo/33135</cbc:URI>
+            <cbc:DocumentHash>EMS9u3t5fJd850zZGvVlWaVbesO/oqZkRRC7PwJcmas=</cbc:DocumentHash>
+            <cbc:FileName>Opći podaci o postupku nabave.md</cbc:FileName>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:CallForTendersDocumentReference>
+        <cbc:ID>21285833-c48d-4ba3-b983-a9534dc10143-18084</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cbc:LanguageID>HRV</cbc:LanguageID>
+        <cbc:DocumentStatusCode listName="document-status">official</cbc:DocumentStatusCode>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://eojn.hr/tender-eo/33135</cbc:URI>
+            <cbc:DocumentHash>pySOO6QHaTKFYMm6yryiCwAWBCjOehKvaeTl+qXrwwA=</cbc:DocumentHash>
+            <cbc:FileName>Upute za ponuditelje.md</cbc:FileName>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:CallForTendersDocumentReference>
+        <cbc:ID>32a650d3-668a-40d1-be93-778b6c15d45f-3560</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cbc:LanguageID>HRV</cbc:LanguageID>
+        <cbc:DocumentStatusCode listName="document-status">official</cbc:DocumentStatusCode>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://eojn.hr/tender-eo/33135</cbc:URI>
+            <cbc:DocumentHash>u8/CRKy4bpetlyeY01aXtasngWeifnHwyVX2INAlGUc=</cbc:DocumentHash>
+            <cbc:FileName>Kriteriji za kvalitativni odabir gospodarskog subjekta.md</cbc:FileName>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:CallForTendersDocumentReference>
+        <cbc:ID>049a2129-0d0f-4fc5-9d0e-99154c5d38fe-18084</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cbc:LanguageID>HRV</cbc:LanguageID>
+        <cbc:DocumentStatusCode listName="document-status">official</cbc:DocumentStatusCode>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://eojn.hr/tender-eo/33135</cbc:URI>
+            <cbc:DocumentHash>J6xcUi1GM21P0g0eDTFiGCe9B1mZvALNU6hJCgcg57o=</cbc:DocumentHash>
+            <cbc:FileName>Kriteriji za odabir ponude.md</cbc:FileName>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:CallForTendersDocumentReference>
+        <cbc:ID>a596fa46-dc21-4c2f-be7e-78e8b5adfc44-18084</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cbc:LanguageID>HRV</cbc:LanguageID>
+        <cbc:DocumentStatusCode listName="document-status">official</cbc:DocumentStatusCode>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://eojn.hr/tender-eo/33135</cbc:URI>
+            <cbc:DocumentHash>2TuiHpp6PfqDSF5POH7yNCNGuXdBx4boXHGQiJZjVyw=</cbc:DocumentHash>
+            <cbc:FileName>Prijedlog ugovora br. VV-22-24.pdf</cbc:FileName>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:CallForTendersDocumentReference>
+        <cbc:ID>9f3e7004-5d8d-41c2-8e38-d214d30de010-12896</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cbc:LanguageID>HRV</cbc:LanguageID>
+        <cbc:DocumentStatusCode listName="document-status">official</cbc:DocumentStatusCode>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://eojn.hr/tender-eo/33135</cbc:URI>
+            <cbc:DocumentHash>Ld0XxJ7WWkqkRSmPQ5blSPu3oSpiteZglPR0J1DTc0w=</cbc:DocumentHash>
+            <cbc:FileName>Opis usluge.pdf</cbc:FileName>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:CallForTendersDocumentReference>
+        <cbc:ID>b1b502d3-f592-491a-b24f-d0b263de6ac4-3560</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cbc:LanguageID>HRV</cbc:LanguageID>
+        <cbc:DocumentStatusCode listName="document-status">official</cbc:DocumentStatusCode>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://eojn.hr/tender-eo/33135</cbc:URI>
+            <cbc:DocumentHash>rg6pJZNdZE3eFhleerrX+wTTT3yFNvOCVVlGSIW57gQ=</cbc:DocumentHash>
+            <cbc:FileName>TROŠKOVNIK VV-22-24.xlsx</cbc:FileName>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:PaymentTerms>
+        <cbc:Note languageID="HRV">Izvršene usluge će se plaćati prema privremenim situacijama odnosno okončanoj situaciji, u postotku od izvršenih radova, a u roku od 30 dana od dana ovjere Naručitelja doznakom na poslovni račun Odabranog ponuditelja, odnosno prema aktivnostima, kako slijedi:
+-	Stručni nadzor nad izvođenjem radova na rekonstrukciji i opremanju – hotel Bellevue = plaćanje temeljem privremenih i okončane situacije po izvedenom tehničkom pregledu, u postotku od izvršenih radova.
+Obvezna je dostava e - Računa.
+O roku, načinu i uvjetima plaćanja detaljnije je navedeno u zasebnom dokumentu naziva "Rok, način i uvjeti plaćanja"
+</cbc:Note>
+      </cac:PaymentTerms>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:TendererQualificationRequest>
+        <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="esignature-submission">false</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+        <cbc:Description languageID="HRV">Nije definirano</cbc:Description>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="HRV">Cijena ponude</cbc:Name>
+            <cbc:Description languageID="HRV">Cijena ponude</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="HRV">Specifično iskustvo stručnjaka 1 – glavni nadzorni inženjer</cbc:Name>
+            <cbc:Description languageID="HRV">Obzirom da kvaliteta izvršenja ugovora u značajnoj mjeri ovisi o stručnom iskustvu, Naručitelj kao drugi kriterij određuje specifično iskustvo glavnog nadzornog inženjera.
+
+Glavni nadzorni inženjer odgovoran je za pravovremeno izvršavanje usluge, koordinaciju u provedbi usluge, odnosno za cjelovitost i međusobnu usklađenost nadzora radova te je obvezan o tome sastaviti završno izvješće. Glavni nadzorni inženjer odgovoran je za komunikaciju s Naručiteljem vezano uz provedbu usluge. Glavni nadzorni inženjer, osim prava i obveza definiranih ovom dokumentacijom o nabavi, ugovorom o građenju i ugovorom o stručnom nadzoru, dužan je sudjelovati na svim koordinacijskim sastancima.
+
+Naručitelj će za kriterij  „Specifično iskustvo stručnjaka 1 – glavni nadzorni inženjer“ bodovati broj realiziranih (završenih) projekata izgradnje, rekonstrukcije i/ili cjelovite obnove ugostiteljskih objekata  iz skupine hoteli  kategorije 4* ili 5*, minimalne građevinske bruto površine 1.500 m2 na kojima je navedeni stručnjak sudjelovao u funkciji glavnog nadzornog inženjera.
+
+Objekti iz skupine hoteli podrazumijevaju sve objekte sukladno članku 27. Pravilnik o razvrstavanju, kategorizaciji i posebnim standardima ugostiteljskih objekata iz skupine Hoteli (NN 56/16, 120/19).
+</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="HRV">Specifično iskustvo stručnjaka 2 – nadzorni inženjer za građevinske radove</cbc:Name>
+            <cbc:Description languageID="HRV">Obzirom da kvaliteta izvršenja ugovora u značajnoj mjeri ovisi o stručnom iskustvu, Naručitelj kao treći kriterij određuje specifično iskustvo nadzornog inženjera za građevinske radove.
+
+Naručitelj će za kriterij  „Specifično iskustvo stručnjaka 2 – nadzorni inženjer za građevinske radove“ bodovati broj realiziranih (završenih) projekata izgradnje, rekonstrukcije i/ili cjelovite obnove ugostiteljskih objekata  iz skupine hoteli  kategorije 4* ili 5*, minimalne građevinske bruto površine 1.500 m2 na kojima je navedeni stručnjak sudjelovao u funkciji nadzornog inženjera za građevinske radove.
+
+Objekti iz skupine hoteli podrazumijevaju sve objekte sukladno članku 27. Pravilnik o razvrstavanju, kategorizaciji i posebnim standardima ugostiteljskih objekata iz skupine Hoteli (NN 56/16, 120/19).
+</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="HRV">Specifično iskustvo stručnjaka 3 – nadzorni inženjer za strojarske radove</cbc:Name>
+            <cbc:Description languageID="HRV">Obzirom da kvaliteta izvršenja ugovora u značajnoj mjeri ovisi o stručnom iskustvu, Naručitelj kao četvrti kriterij određuje specifično iskustvo nadzornog inženjera za strojarske radove.
+Naručitelj će za kriterij  „Specifično iskustvo stručnjaka 3 – nadzorni inženjer za strojarske radove“ bodovati broj realiziranih (završenih) projekata izgradnje, rekonstrukcije i/ili cjelovite obnove ugostiteljskih objekata  iz skupine hoteli  kategorije 4* ili 5*, minimalne građevinske bruto površine 1.500 m2 na kojima je navedeni stručnjak sudjelovao u funkciji nadzornog inženjera za strojarske radove. 
+Objekti iz skupine hoteli podrazumijevaju sve objekte sukladno članku 27. Pravilnik o razvrstavanju, kategorizaciji i posebnim standardima ugostiteljskih objekata iz skupine Hoteli (NN 56/16, 120/19).
+</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+            <cbc:Name languageID="HRV">Specifično iskustvo stručnjaka 4 – nadzorni inženjer za elektrotehničke radove</cbc:Name>
+            <cbc:Description languageID="HRV">Obzirom da kvaliteta izvršenja ugovora u značajnoj mjeri ovisi o stručnom iskustvu, Naručitelj kao peti kriterij određuje specifično iskustvo nadzornog inženjera za elektrotehničke radove.
+
+Naručitelj će za kriterij  „Specifično iskustvo stručnjaka 4 – nadzorni inženjer za elektrotehničke radove“ bodovati broj realiziranih (završenih) projekata izgradnje, rekonstrukcije i/ili cjelovite obnove ugostiteljskih objekata  iz skupine hoteli  kategorije 4* ili 5*, minimalne građevinske bruto površine 1.500 m2 na kojima je navedeni stručnjak sudjelovao u funkciji nadzornog inženjera za elektrotehničke radove. 
+
+Objekti iz skupine hoteli podrazumijevaju sve objekte sukladno članku 27. Pravilnik o razvrstavanju, kategorizaciji i posebnim standardima ugostiteljskih objekata iz skupine Hoteli (NN 56/16, 120/19).
+</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AdditionalInformationParty>
+        <cac:PartyIdentification>
+          <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+        </cac:PartyIdentification>
+      </cac:AdditionalInformationParty>
+      <cac:TenderRecipientParty>
+        <cbc:EndpointID>https://eojn.hr/tender-eo/33135</cbc:EndpointID>
+      </cac:TenderRecipientParty>
+      <cac:TenderValidityPeriod>
+        <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+      </cac:TenderValidityPeriod>
+      <cac:AppealTerms>
+        <cbc:Description languageID="HRV">Rok za izjavljivanje žalbe iznosi deset (10) dana i to od dana:  
+1. objave poziva na nadmetanje, u odnosu na sadržaj poziva ili dokumentacije o nabavi  
+2. objave obavijesti o ispravku, u odnosu na sadržaj ispravka  
+3. objave izmjene dokumentacije o nabavi, u odnosu na sadržaj izmjene dokumentacije  
+4. otvaranja ponuda u odnosu na propuštanje naručitelja da valjano odgovori na pravodobno dostavljen zahtjev dodatne informacije, objašnjenja ili izmjene dokumentacije o nabavi te na postupak otvaranja ponuda      
+
+Žalitelj koji je propustio izjaviti žalbu u određenoj fazi nema pravo na žalbu u kasnijoj fazi postupka za prethodnu fazu.</cbc:Description>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <cbc:ID>HRV</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <cbc:ElectronicCatalogueUsageIndicator>false</cbc:ElectronicCatalogueUsageIndicator>
+        <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efbc:AccessToolName>https://eojn.hr/</efbc:AccessToolName>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:TenderSubmissionDeadlinePeriod>
+        <cbc:EndDate>2025-02-07+01:00</cbc:EndDate>
+        <cbc:EndTime>12:00:00.0000000+01:00</cbc:EndTime>
+      </cac:TenderSubmissionDeadlinePeriod>
+      <cac:OpenTenderEvent>
+        <cbc:OccurrenceDate>2025-02-07+01:00</cbc:OccurrenceDate>
+        <cbc:OccurrenceTime>12:00:00.0000000+01:00</cbc:OccurrenceTime>
+        <cbc:Description languageID="HRV">Javnom otvaranju smiju prisustvovati ovlašteni predstavnici Naručitelja, ovlašteni predstavnici ponuditelja i druge osobe.
+Pravo aktivnog sudjelovanja na javnom otvaranju ponuda imaju samo ovlašteni predstavnici Naručitelja i ovlašteni predstavnici ponuditelja. Ovlašteni predstavnici ponuditelja moraju svoje pisano ovlaštenje predati neposredno prije otvaranja ponuda.
+</cbc:Description>
+        <cac:OccurenceLocation>
+          <cbc:Description languageID="HRV">Javna ustanova Nacionalni park Plitvička jezera, Josipa Jovića 19, 53231 Plitvička jezera, u Znanstveno-stručnom centru dr. Ivo Pevalek u višenamjenskoj dvorani za sastanke na 2. katu.</cbc:Description>
+        </cac:OccurenceLocation>
+      </cac:OpenTenderEvent>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="internalID">VV-22/24</cbc:ID>
+      <cbc:Name languageID="HRV">STRUČNI NADZOR NAD RADOVIMA NA REKONSTRUKCIJI I OPREMANJU- HOTEL BELLEVUE</cbc:Name>
+      <cbc:Description languageID="HRV">Predmet nabave je usluga stručnog nadzora nad radovima na rekonstrukciji i opremanju hotela Bellevue a sukladno Zakonu o gradnji (NN 153/13, 20/17, 39/19, 125/19) i ostalim važećim propisima.
+
+Radi pripreme ponude za ovaj postupak nabave, upućuju se potencijali ponuditelji da u Elektroničkom oglasniku javne nabave RH izvrše uvid u nadmetanje broj objave 2024/S F02-0006075 čime će steći potpuni uvid u traženi opseg usluge. 
+Također, cjelokupnu projektnu dokumentaciju može se preuzeti na sljedećem linku: https://np-plitvicka-jezera.hr/rekonstrukcija-i-opremanje-hotel_bellevue/  
+
+Sukladno provedenom nadmetanju, evidencijski broj VV-17/24, a nakon pribavljene suglasnosti drugog tijela sukladno čl. 307. st. 4. ZJN Naručitelj će sklopiti Ugovor s odabranom Zajednicom ponuditelja: MODULOR DOO BEOGRAD, OIB: 88444427661, NIKOLAJA SALTIKOVA 61, 11000 BEOGRAD, Srbija; MODULOR CONSTRUCTIONS d.o.o., OIB: 23023589098, Slavonska avenija 1, 10000 Grad Zagreb, Hrvatska po ponuđenoj cijeni od 14.756.928,01 EUR + PDV. Ugovor će se sklopiti na 30 mjeseci. Rok završetka ugovornih radova je 18 mjeseci od dana uvođenja u posao. 
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+      <cac:ProcurementAdditionalType>
+        <cbc:ProcurementTypeCode listName="accessibility">n-inc</cbc:ProcurementTypeCode>
+      </cac:ProcurementAdditionalType>
+      <cac:RequestedTenderTotal>
+        <cbc:EstimatedOverallContractAmount currencyID="EUR">223000</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">71247000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cbc:Description languageID="HRV">Hotel Bellevue u Nacionalnom parku Plitvička jezera – k.č. br. 3, k.o. Plitvička Jezera.</cbc:Description>
+        <cac:Address>
+          <cbc:CountrySubentityCode listName="nuts">HR032</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">HRV</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:StartDate>2025-03-03+01:00</cbc:StartDate>
+        <cbc:DurationMeasure unitCode="MONTH">24</cbc:DurationMeasure>
+      </cac:PlannedPeriod>
+      <cac:ContractExtension>
+        <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+      </cac:ContractExtension>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+</ContractNotice>

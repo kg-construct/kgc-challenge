@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.pw.edu.pl/</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://www.bip.pw.edu.pl/content/view/full/315</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Politechnika Warszawska</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Plac Politechniki 1</cbc:StreetName>
+                           <cbc:Department>Dział Logistyki i Zakupów</cbc:Department>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>00-661</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5250005834</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Dział Logistyki i Zakupów</cbc:Name>
+                           <cbc:Telephone>+48 22 234 62 21</cbc:Telephone>
+                           <cbc:ElectronicMail>dorota.sochacka@pw.edu.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://www.gov.pl/web/uzp/krajowa-izba-odwolawcza</cbc:WebsiteURI>
+                        <cbc:EndpointID>https://www.gov.pl/web/uzp/epuap</cbc:EndpointID>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Urząd Zamówień Publicznych - Krajowa Izba Odwoławcza</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>ul. Postępu 17A</cbc:StreetName>
+                           <cbc:Department>Biuro Odwołań</cbc:Department>
+                           <cbc:CityName>Warszawa</cbc:CityName>
+                           <cbc:PostalZone>02-676</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>5262239325</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Name>Krajowa Izba Odwoławcza - Biuro Odwołań</cbc:Name>
+                           <cbc:Telephone>+48 224587801</cbc:Telephone>
+                           <cbc:ElectronicMail>odwolania@uzp.gov.pl</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>https://op.europa.eu</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="POL">Publications Office of the European Union</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:CityName>Luxembourg</cbc:CityName>
+                           <cbc:PostalZone>2417</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>PUBL</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+352 29291</cbc:Telephone>
+                           <cbc:ElectronicMail>ted@publications.europa.eu</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               </efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00350338-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">104/2025</efbc:GazetteID><efbc:PublicationDate>2025-06-02+02:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">bf09b4d3-2cc2-4b87-9e8b-0790cf13b954</cbc:ID>
+   <cbc:ContractFolderID>49a4af6f-920c-41f1-98ec-c8d072dd7713</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-05-29Z</cbc:IssueDate>
+   <cbc:IssueTime>07:34:03Z</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">POL</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cbc:BuyerProfileURI>https://platformazakupowa.pl/pn/pw_edu/proceedings</cbc:BuyerProfileURI>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:ServiceProviderParty>
+            <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+            <cac:Party>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0000</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:Party>
+         </cac:ServiceProviderParty>
+      </cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>LocalLegalBasis</cbc:ID>
+         <cbc:DocumentDescription languageID="POL">Ustawa z dnia 11 września 2019 roku Prawo zamówień publicznych</cbc:DocumentDescription>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:Description languageID="POL">Art. 132 ustawy Pzp ­ przetarg nieograniczony ­ tryb udzielania zamówień w którym na publiczne ogłoszenie o zamówieniu oferty mogą składać wszyscy zainteresowani wykonawcy.</cbc:Description>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">ZP.U.DS.26.2025</cbc:ID>
+      <cbc:Name languageID="POL">Obsługa serwisowo-konserwacyjna central wentylacyjnych Klimor wraz z wymianą filtrów wstępnych i dokładnych, nawilżaczy Swegon oraz wentylatorów dachowych i technicznych, urządzeń klimatyzacyjnych i chłodniczych produkcji firmy Clint, Fujitsu, Fuji Electric oraz Daikin zainstalowanych w budynku Rektorska 4 Politechniki Warszawskiej</cbc:Name>
+      <cbc:Description languageID="POL">Obsługa serwisowo-konserwacyjna central wentylacyjnych Klimor wraz z wymianą filtrów wstępnych i dokładnych, nawilżaczy Swegon oraz wentylatorów dachowych i technicznych, urządzeń klimatyzacyjnych i chłodniczych produkcji firmy Clint, Fujitsu, Fuji Electric oraz Daikin zainstalowanych w budynku Rektorska 4 Politechniki Warszawskiej. Szczegółowy opis przedmiotu zamówienia (SOPZ) znajduje się w załączniku nr 1 do SWZ. Warunki realizacji Przedmiotu Zamówienia określone zostały w załączniku nr 2 do SWZ – Projektowane Postanowienia Umowy.
+</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="POL">1. Zamawiający wykluczy z postępowania o udzielenie zamówienia wykonawcę na podstawie przepisów art. 108 ust. 1 pkt 1 ­ 6 oraz art. 109 ust. 1 pkt. 4 ustawy Pzp. 2. Zamawiający wykluczy z postępowania o udzielenie zamówienia wykonawcę w stosunku do którego zachodzą okoliczności, o których mowa w: 1) art. 5k ust. 1 rozporządzenia Rady (UE) nr 833/2014 z dnia 31 lipca 2014 r. dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie, 2) art. 7 ust. 1 ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie 
+bezpieczeństwa narodowego.
+2. Zamawiający warunkuje złożenie oferty po uprzednim odbyciu wizji lokalnej.
+Wymaga się, aby Wykonawca przeprowadził obowiązkową wizję lokalną z udziałem Zamawiającego przyszłego terenu, na którym wykonywane będzie zamówienie, celem sprawdzenia miejsca realizacji usługi oraz warunków związanych z wykonaniem prac będących przedmiotem zamówienia. Koszt wizji lokalnej ponosi Wykonawca.
+Szczegółowe informacje znajdują się w pkt. 5.1.5 SWZ.
+</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">50000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">42500000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:StreetName>ul. Rektorska 4</cbc:StreetName>
+            <cbc:CityName>Warszawa</cbc:CityName>
+            <cbc:PostalZone>00-614</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-qual-inst</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="POL">Warunek ten zostanie spełniony, jeżeli Wykonawca wykaże, że posiada „Certyfikat dla przedsiębiorców”, o którym mowa w art. 29 Ustawy z dnia 15 maja 2015 r. o substancjach zubożających warstwę ozonową oraz o niektórych fluorowanych gazach cieplarnianych (tekst jedn. Dz.U. z 2020 r. poz. 2065), w zakresie instalowania, konserwacji lub serwisowania, naprawy lub likwidacji stacjonarnych urządzeń chłodniczych, klimatyzacyjnych lub pomp ciepła, zawierających fluorowane gazy cieplarniane.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-ins</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="POL">Warunek ten zostanie spełniony, jeśli Wykonawca jest ubezpieczony od odpowiedzialności cywilnej w zakresie prowadzonej działalności związanej z przedmiotem zamówienia (polisa OC) na sumę gwarancyjną nie mniejszą niż 150 000,00 zł</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-ref-services</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="POL">Warunek ten zostanie spełniony jeśli Wykonawca wykaże, że:
+1)	 wykonał lub wykonuje: co najmniej 1 usługę z obszaru przedmiotu zamówienia odpowiadające swoim rodzajem i wartości przedmiotowi zamówienia t.j. w zakresie serwisu i konserwacji central wentylacyjnych oraz wentylatorów:
+a)	1 usługę o wartości nie mniejszej niż 50 000,00 zł brutto w skali maksymalnie 12 miesięcy (umowa na rok) 
+lub 
+b)	2 usługi  o wartości nie mniejszej niż 25 000,00 zł brutto każda  w skali maksymalnie 12 miesięcy (umowa na rok); 
+– w okresie ostatnich 3 lat przed upływem terminu składania ofert, a jeżeli okres prowadzenia działalności jest krótszy w tym okresie;
+2)	wykonał lub wykonuje: co najmniej 1 usługę z obszaru przedmiotu zamówienia odpowiadające swoim rodzajem i wartości przedmiotowi zamówienia t.j. w zakresie serwisu i konserwacji agregatów chłodniczych, instalacji wody lodowej oraz urządzeń chłodzących typu split:
+a)	1 usługę o wartości nie mniejszej niż 50 000,00 zł brutto w skali maksymalnie 12 miesięcy (umowa na rok) 
+lub 
+b)	2 usługi  o wartości nie mniejszej niż 25 000,00 zł brutto każda  w skali maksymalnie 12 miesięcy (umowa na rok) 
+– w okresie ostatnich 3 lat przed upływem terminu składania ofert, a jeżeli okres prowadzenia działalności jest krótszy w tym okresie;
+</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-qual</cbc:TendererRequirementTypeCode>
+                        <cbc:Description languageID="POL">Warunek ten zostanie spełniony jeśli Wykonawca wykaże, że skieruje do wykonania zamówienia odpowiednio wykwalifikowane minimum 2 osoby, które posiadają doświadczenie oraz kwalifikacje w pracy w usługach związanych z przedmiotem zamówienia, tj.:
+a)	co najmniej 1 osobę z aktualne „Certyfikaty personelu”, o których mowa w art. 20 Ustawy z dnia 15 maja 2015 r. o substancjach zubożających warstwę ozonową oraz o niektórych fluorowanych gazach cieplarnianych (tekst jedn. Dz.U. z 2020 r. poz. 2065), w odniesieniu do stacjonarnych urządzeń chłodniczych, klimatyzacyjnych i pomp ciepła; 
+b)	co najmniej 1 osobę posiadającą aktualne świadectwo kwalifikacyjne do wykonywania pracy na stanowisku eksploatacji w zakresie obsługi, konserwacji, remontu, naprawy, montażu lub demontażu, czynności kontrolno-pomiarowych urządzeń (grupa 1 – urządzenia instalacje i sieci elektroenergetyczne wytwarzające, przetwarzające, przesyłające i zużywające energię elektryczną)
+- instalacje i sieci elektroenergetyczne o napięciu znamionowym nie wyższym niż 1 kV,
+- aparatura kontrolno-pomiarowa oraz urządzenia i instalacje automatycznej regulacji, sterowania i zabezpieczeń urządzeń i instalacji w.w.
+c)	co najmniej 1 osobę, posiadającą aktualne świadectwo kwalifikacyjne do wykonywania pracy na stanowisku dozoru w zakresie obsługi, konserwacji, remontu, naprawy, montażu lub demontażu, czynności kontrolno-pomiarowych urządzeń (grupa 1 – urządzenia instalacje i sieci elektroenergetyczne wytwarzające, przetwarzające, przesyłające i zużywające energię elektryczną):
+- instalacje i sieci elektroenergetyczne o napięciu znamionowym nie wyższym niż 1 kV,
+- aparatura kontrolno-pomiarowa oraz urządzenia i instalacje automatycznej regulacji, sterowania i zabezpieczeń urządzeń i instalacji w.w.
+d)	co najmniej 1 osobę posiadającą aktualne świadectwo kwalifikacyjne do wykonywania pracy na stanowisku eksploatacji w zakresie obsługi, konserwacji, remontu, naprawy, montażu lub demontażu, czynności kontrolno-pomiarowych urządzeń (grupa 2 – urządzenia wytwarzające, przetwarzające, przesyłające i zużywające ciepło oraz inne urządzenia elektryczne):
+- wentylacji, klimatyzacji i chłodnicze, o mocy wyższej niż 50kW i o mocy nie wyższej niż 500kW 
+- pompy, ssawy, wentylatory i dmuchawy, o mocy wyższej niż 50kW i o mocy nie wyższej niż 500kW    
+e)	co najmniej 1 osobę posiadającą aktualne świadectwo kwalifikacyjne do wykonywania pracy na stanowisku dozoru w zakresie obsługi, konserwacji, remontu, naprawy, montażu lub demontażu, czynności kontrolno-pomiarowych urządzeń (grupa 2 – urządzenia wytwarzające, przetwarzające, przesyłające i zużywające ciepło oraz inne urządzenia elektryczne):
+- wentylacji, klimatyzacji i chłodnicze, o mocy wyższej niż 50kW i o mocy nie wyższej niż 500kW 
+- pompy, ssawy, wentylatory i dmuchawy, o mocy wyższej niż 50kW i o mocy nie wyższej niż 500kW    
+Uwaga: kwalifikacje wymienione wyżej, mogą być spełnione łącznie, przez co najmniej 2 osoby.
+</cbc:Description>
+                     </efac:SelectionCriteria>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">t-requ</cbc:RequiredCurriculaCode>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+         </cac:RequiredFinancialGuarantee>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>POL</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>ZP.U.DS.26.2025</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://platformazakupowa.pl/transakcja/1099078</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:PaymentTerms>
+            <cbc:Note languageID="POL">1. Zapłata wynagrodzenia określonego w par. 1 pkt 1) realizowana będzie 2 razy w roku w okresach półrocznych na podstawie faktury do której będzie dołączony protokół z przeglądu technicznego i czynności konserwacyjnych podpisany przez przedstawiciela Zamawiającego, przelewem na rachunek bankowy Wykonawcy wskazany na fakturze, w terminie 21 dni od daty wystawienia Zamawiającemu prawidłowej faktury (oryginał). 
+2. Wynagrodzenie związane z naprawami i usunięciem usterek będzie płatne na podstawie faktury, do której będzie dołączony wcześniej zatwierdzony przez Zamawiającego kosztorys napraw oraz protokół z wykonania usługi podpisany przez obie Strony, przelewem na rachunek bankowy Wykonawcy wskazany na fakturze, w terminie 21 dni od daty wystawienia Zamawiającemu prawidłowej j faktury (oryginał).
+</cbc:Note>
+         </cac:PaymentTerms>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Cena</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                  <cbc:Description languageID="POL">Czas przystąpienia do usunięcia awarii</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://platformazakupowa.pl/transakcja/1099078</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderEvaluationParty>
+            <cac:PartyIdentification>
+               <cbc:ID>ORG-0001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderEvaluationParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="POL">1. Terminy wniesienia odwołania określone są w art. 515 ustawy Pzp. W przypadku zamówień, których wartość jest równa albo przekracza progi unijne, w terminie:
+1) 10 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana przy użyciu środków komunikacji elektronicznej; albo 
+2) w terminie 15 dni od dnia przekazania informacji o czynności zamawiającego stanowiącej podstawę jego wniesienia, jeżeli informacja została przekazana w inny sposób niż określony w ppkt. 1). 
+2. Odwołanie wobec treści ogłoszenia wszczynającego postępowanie o udzielenie zamówienia lub wobec treści dokumentów zamówienia wnosi się w terminie : 10 dni od dnia publikacji ogłoszenia w Dzienniku Urzędowym Unii Europejskiej lub zamieszczenia dokumentów zamówienia na stronie internetowej. 
+3. Odwołanie w przypadkach innych niż wyżej określone w pkt 1 i 2 wnosi się w terminie: 10 dni od dnia, w którym powzięto lub przy zachowaniu należytej staranności można było powziąć wiadomość o okolicznościach stanowiących podstawę jego wniesienia, w przypadku zamówień, których wartość jest równa albo przekracza progi unijne. 
+4. Jeżeli Zamawiający nie opublikował ogłoszenia o zamiarze zawarcia umowy lub mimo takiego obowiązku nie przesłał Wykonawcy zawiadomienia o wyborze oferty najkorzystniejszej odwołanie wnosi się nie później niż w terminie: 
+1) 30 dni od dnia publikacji w Dzienniku Urzędowym Unii Europejskiej ogłoszenia o udzieleniu zamówienia, 
+2) 6 miesięcy od dnia zawarcia umowy, jeżeli Zamawiający nie opublikował w Dzienniku Urzędowym Unii Europejskiej ogłoszenia o udzieleniu zamówienia. 
+5. Na orzeczenie Krajowej Izby Odwoławczej oraz postanowienie Prezesa Krajowej Izby Odwoławczej, o którym mowa w art. 519 ust. 1 ustawy, stronom oraz uczestnikom postępowania odwoławczego przysługuje skarga do sądu. </cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID>ORG-0002</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>POL</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-07-04+02:00</cbc:EndDate>
+            <cbc:EndTime>10:00:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-07-04+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>10:05:00+02:00</cbc:OccurrenceTime>
+            <cbc:Description languageID="POL">Otwarcie ofert odbywa się bez udziału wykonawców. Zamawiający, niezwłocznie po otwarciu ofert, udostępnia na stronie internetowej prowadzonego postępowania informacje o: 1. nazwach albo imionach i nazwiskach oraz siedzibach lub miejscach prowadzonej działalności gospodarczej albo miejscach zamieszkania wykonawców, których oferty zostały otwarte; 2. cenach lub kosztach zawartych w ofertach.
+</cbc:Description>
+            <cac:OccurenceLocation>
+               <cbc:Description languageID="POL">Politechnika Warszawska, ul. Noakowskiego 18/20, 00­-668 Warszawa</cbc:Description>
+            </cac:OccurenceLocation>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID schemeName="InternalID">ZP.U.DS.26.2025</cbc:ID>
+         <cbc:Name languageID="POL">Obsługa serwisowo-konserwacyjna central wentylacyjnych Klimor wraz z wymianą filtrów wstępnych i dokładnych, nawilżaczy Swegon oraz wentylatorów dachowych i technicznych, urządzeń klimatyzacyjnych i chłodniczych produkcji firmy Clint, Fujitsu, Fuji Electric oraz Daikin zainstalowanych w budynku Rektorska 4 Politechniki Warszawskiej. </cbc:Name>
+         <cbc:Description languageID="POL">Obsługa serwisowo-konserwacyjna central wentylacyjnych Klimor wraz z wymianą filtrów wstępnych i dokładnych, nawilżaczy Swegon oraz wentylatorów dachowych i technicznych, urządzeń klimatyzacyjnych i chłodniczych produkcji firmy Clint, Fujitsu, Fuji Electric oraz Daikin zainstalowanych w budynku Rektorska 4 Politechniki Warszawskiej. Szczegółowy opis przedmiotu zamówienia (SOPZ) znajduje się w załączniku nr 1 do SWZ. Warunki realizacji Przedmiotu Zamówienia określone zostały w załączniku nr 2 do SWZ – Projektowane Postanowienia Umowy.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="POL">1.	Oferta elektroniczna, na którą składają się: 
+1)	Formularz oferty, stanowiący Załącznik nr 3 do SWZ; 
+2)	Jednolity Europejski Dokument Zamówienia (JEDZ) – wzór stanowi Załącznik nr 1 do Formularza oferty. W przypadku wspólnego ubiegania się o zamówienie przez wykonawców, oświadczenie o niepodleganiu wykluczeniu składa każdy z Wykonawców;
+3)	Oświadczenie  składane na podstawie art. 5k ust. 1 rozporządzenia Rady (UE) nr 833/2014 z dnia 31 lipca 2014 r. dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie oraz art. 7 ust. 1 Ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego, stanowiące Załącznik nr 1a do Formularza Oferty. W przypadku wspólnego ubiegania się o zamówienie przez Wykonawców, oświadczenie o niepodleganiu wykluczeniu składa każdy z Wykonawców; jeżeli dotyczy również oświadczenie dotyczące podmiotu udostępniającego zasoby.
+4)	Pełnomocnictwo upoważniające do złożenia oferty, o ile ofertę składa pełnomocnik;
+5)	 (jeżeli dotyczy) – Oświadczenie wykonawców wspólnie ubiegających się o udzielenie zamówienia - stanowiące Załącznik nr 2 do Formularza oferty.
+6)	 (jeżeli dotyczy) - Pełnomocnictwo dla pełnomocnika do reprezentowania w postępowaniu Wykonawców wspólnie ubiegających się o udzielenie zamówienia - dotyczy ofert składanych przez Wykonawców wspólnie ubiegających się o udzielenie zamówienia;
+7)	(jeżeli dotyczy) - Zobowiązanie podmiotu udostępniającego zasoby stanowiące Załącznik nr 3 do Formularza oferty.
+8)	(jeżeli dotyczy) Europejski Dokument Zamówienia (JEDZ) dotyczący podmiotów udostępniających zasoby, w zakresie wskazanym w Części II Sekcji C formularza JEDZ (Informacje na temat polegania na zdolności innych podmiotów).
+2. Zamawiający przed wyborem najkorzystniejszej oferty wezwie Wykonawcę, którego oferta została najwyżej oceniona do złożenia w wyznaczonym terminie nie krótszym niż 10 dni podmiotowych środków dowodowych, potwierdzających brak podstaw wykluczenia wykonawcy z udziału w postępowaniu, aktualnych na dzień złożenia:
+1)	informacji z Krajowego Rejestru Karnego w zakresie: art. 108 ust. 1 pkt 1 i 2 ustawy Pzp i art. 108 ust. 1 pkt 4 ustawy Pzp, dotyczącej orzeczenia zakazu ubiegania się o zamówienie publiczne tytułem środka karnego, sporządzonej nie wcześniej niż 6 miesięcy przed jej złożeniem,
+2)	oświadczenia Wykonawcy, w zakresie art. 108 ust. 1 pkt 5 ustawy Pzp, o braku przynależności do tej samej grupy kapitałowej w rozumieniu ustawy z dnia 16 lutego 2007 r. o ochronie konkurencji i konsumentów (Dz. U. z 2020 r. poz. 1076 i 1086), z innym Wykonawcą, który złożył odrębną ofertę, ofertę częściową, albo oświadczenia o przynależności do tej samej grupy kapitałowej wraz z dokumentami lub informacjami potwierdzającymi przygotowanie oferty, oferty częściowej niezależnie od innego Wykonawcy należącego do tej samej grupy kapitałowej. Zamawiający zaleca sporządzenie oświadczenia zgodnie ze wzorem stanowiącym Załącznik nr 5 do Formularza oferty,
+3)	odpisu lub informacji z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, w zakresie art. 109 ust. 1 pkt 4 ustawy Pzp, sporządzonych nie wcześniej niż 3 miesiące przed jej złożeniem, jeżeli odrębne przepisy wymagają wpisu do rejestru lub ewidencji.
+4)	Oświadczenie wykonawcy o aktualności informacji zawartych w oświadczeniu, o którym mowa w art. 125 ust. 1 ustawy Pzp (JEDZ), w zakresie podstaw wykluczenia z postępowania wskazanych przez zamawiającego, o których mowa w art. 108 ust. 1 pkt 3-6 ustawy Pzp, zaleca się sporządzenie oświadczenia zgodnie ze wzorem stanowiącym Załącznik nr 4 do Formularza oferty.
+3.	Jeżeli Wykonawca ma siedzibę lub miejsce zamieszkania poza granicami Rzeczypospolitej Polskiej, zamiast: 
+1)	informacji z Krajowego Rejestru Karnego, o której mowa w pkt 7.2. ppkt 1) – składa informację z odpowiedniego rejestru, takiego jak rejestr sądowy, albo, w przypadku braku takiego rejestru, inny równoważny dokument wydany przez właściwy organ sądowy lub administracyjny kraju, w którym wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument, w zakresie, o którym mowa w w 7.2. ppkt 1) – wystawiony nie wcześniej niż 6 miesięcy przed jego złożeniem;
+2)	odpisu albo informacji z Krajowego Rejestru Sądowego lub z Centralnej Ewidencji i Informacji o Działalności Gospodarczej, o których mowa w pkt 7.2. ppkt 3) – składa dokument lub dokumenty wystawione w kraju, w którym wykonawca ma siedzibę lub miejsce zamieszkania, potwierdzające odpowiednio, że nie otwarto jego likwidacji, nie ogłoszono upadłości, jego aktywami nie zarządza likwidator lub sąd, nie zawarł układu z wierzycielami, jego działalność gospodarcza nie jest zawieszona ani nie znajduje się on w innej tego rodzaju sytuacji wynikającej z podobnej procedury przewidzianej w przepisach miejsca wszczęcia tej procedury.
+- wystawione nie wcześniej niż 3 miesiące przed ich złożeniem.
+3)	Jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy dokument, nie wydaje się dokumentów, o których mowa w pkt 7.3 ppkt 1) i 2), lub gdy dokumenty te nie odnoszą się do wszystkich przypadków, o których mowa w art. 108 ust. 1 pkt 1, 2 i 4, art. 109 ust. 1 pkt 1, 2 lit. a i b oraz pkt 3 ustawy Pzp, zastępuje się je odpowiednio w całości lub w części dokumentem zawierającym odpowiednio oświadczenie Wykonawcy, ze wskazaniem osoby albo osób uprawnionych do jego reprezentacji, lub oświadczenie osoby, której dokument miał dotyczyć, złożone pod przysięgą, lub, jeżeli w kraju, w którym Wykonawca ma siedzibę lub miejsce zamieszkania lub miejsce zamieszkania ma osoba, której dotyczy informacja albo dokument nie ma przepisów o oświadczeniu pod przysięgą, złożone przed organem sądowym lub administracyjnym, notariuszem, organem samorządu zawodowego lub gospodarczego, właściwym ze względu na siedzibę lub miejsce zamieszkania wykonawcy lub miejsca zamieszkania osoby, której dokument miał dotyczyć – wystawiony nie wcześniej niż 6 miesięcy przed jego złożeniem. 
+4.	Zamawiający żąda od wykonawcy, który polega na zdolnościach technicznych lub zawodowych lub sytuacji finansowej lub ekonomicznej podmiotów udostępniających zasoby na zasadach określonych w art. 118 ustawy Pzp, przedstawienia podmiotowych środków dowodowych, o których mowa w pkt 7.2 ppkt 1), 3) i 4), dotyczących tych podmiotów, potwierdzających, że nie zachodzą wobec tych pomiotów podstawy wykluczenia z postępowania.
+5.	Zamawiający nie stawia wymogu, aby wykonawca, który zamierza powierzyć wykonanie części zamówienia podwykonawcy nie będącemu podmiotem udostępniającym zasoby na zasadach o których mowa w art. 118 ustawy Pzp, przedstawienia podmiotowych środków dowodowych potwierdzających, że nie zachodzą wobec podwykonawcy podstawy wykluczenia z postępowania.
+6.	Zamawiający przed wyborem najkorzystniejszej oferty wezwie Wykonawcę, którego oferta została najwyżej oceniona, do złożenia w wyznaczonym terminie nie krótszym niż 10 dni podmiotowych środków dowodowych potwierdzających, iż Wykonawca spełnia warunki uczestnictwa, o których mowa w Rozdziale V SWZ, w postaci:
+1)	Wykaz usług wykonanych, a w przypadku świadczeń powtarzających się lub ciągłych również wykonywanych, w okresie ostatnich 3 lat, a jeżeli okres prowadzenia działalności jest krótszy – w tym okresie, wraz z podaniem ich wartości, przedmiotu, dat wykonania i podmiotów, na rzecz których usługi zostały wykonane lub są wykonywane, oraz załączeniem dowodów określających, czy te usługi zostały wykonane lub są wykonywane należycie, przy czym dowodami, o których mowa, są referencje bądź inne dokumenty sporządzone przez podmiot, na rzecz którego usługi zostały wykonane, a w przypadku świadczeń powtarzających się lub ciągłych są wykonywane, a jeżeli wykonawca z przyczyn niezależnych od niego nie jest w stanie uzyskać tych dokumentów – oświadczenie wykonawcy; w przypadku świadczeń powtarzających się lub ciągłych nadal wykonywanych referencje bądź inne dokumenty potwierdzające ich należyte wykonywanie powinny być wystawione w okresie ostatnich 3 miesięcy – załącznik nr 6 do formularza oferty.
+2)	Wykaz osób, skierowanych przez wykonawcę do realizacji zamówienia publicznego, w szczególności odpowiedzialnych za świadczenie usług, kontrolę jakości lub kierowanie robotami budowlanymi, wraz z informacjami na temat ich kwalifikacji zawodowych, uprawnień, doświadczenia i wykształcenia niezbędnych do wykonania zamówienia publicznego, a także zakresu wykonywanych przez nie czynności oraz informacją o podstawie do dysponowania tymi osobami – załącznik nr 7 do formularza oferty.
+3)	Dokumentów potwierdzających, że wykonawca jest ubezpieczony od odpowiedzialności cywilnej w zakresie prowadzonej działalności związanej z przedmiotem zamówienia ze wskazaniem sumy gwarancyjnej tego ubezpieczenia na sumę gwarancyjną określoną w Rozdziale 5 pkt 5.1.3. SWZ.
+4)	„Certyfikat dla przedsiębiorców”, o którym mowa w art. 29 Ustawy z dnia 15 maja 2015 r. o substancjach zubożających warstwę ozonową oraz o niektórych fluorowanych gazach cieplarnianych.
+7.	Zamawiający nie wzywa do złożenia podmiotowych środków dowodowych, jeżeli może je uzyskać za pomocą bezpłatnych i ogólnodostępnych baz danych, w szczególności rejestrów publicznych w rozumieniu ustawy z dnia 17 lutego 2005 r. o informatyzacji działalności podmiotów realizujących zadania publiczne, o ile wykonawca wskazał w jednolitym dokumencie dane umożliwiające dostęp do tych środków.</cbc:Note>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">50000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:AdditionalCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">42500000</cbc:ItemClassificationCode>
+         </cac:AdditionalCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:StreetName>ul. Rektorska 4</cbc:StreetName>
+               <cbc:CityName>Warszawa</cbc:CityName>
+               <cbc:PostalZone>00-614</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">PL911</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">POL</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">24</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractAwardNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:hilma="urn:hanselHilma:NationalNoticeExtension">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efbc:TransmissionDate>2026-02-26+00:00</efbc:TransmissionDate>
+          <efbc:TransmissionTime>14:18:17+00:00</efbc:TransmissionTime>
+          <efac:NoticeResult>
+            <cbc:TotalAmount currencyID="EUR">6130600</cbc:TotalAmount>
+            <efac:LotResult>
+              <cbc:ID schemeName="result">RES-0001</cbc:ID>
+              <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+              <cac:FinancingParty>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+              </cac:FinancingParty>
+              <cac:PayerParty>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+              </cac:PayerParty>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              </efac:LotTender>
+              <efac:ReceivedSubmissionsStatistics>
+                <efbc:StatisticsCode listName="received-submission-type">t-med</efbc:StatisticsCode>
+                <efbc:StatisticsNumeric>4</efbc:StatisticsNumeric>
+              </efac:ReceivedSubmissionsStatistics>
+              <efac:SettledContract>
+                <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+              </efac:SettledContract>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+            </efac:LotResult>
+            <efac:LotTender>
+              <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              <cac:LegalMonetaryTotal>
+                <cbc:PayableAmount currencyID="EUR">6130600</cbc:PayableAmount>
+              </cac:LegalMonetaryTotal>
+              <efac:SubcontractingTerm>
+                <efbc:TermCode listName="applicability">no</efbc:TermCode>
+              </efac:SubcontractingTerm>
+              <efac:TenderingParty>
+                <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              </efac:TenderingParty>
+              <efac:TenderLot>
+                <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+              </efac:TenderLot>
+              <efac:TenderReference>
+                <cbc:ID>581693</cbc:ID>
+              </efac:TenderReference>
+            </efac:LotTender>
+            <efac:SettledContract>
+              <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+              <cbc:AwardDate>2025-12-09Z</cbc:AwardDate>
+              <cbc:IssueDate>2025-12-31Z</cbc:IssueDate>
+              <cac:SignatoryParty>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+              </cac:SignatoryParty>
+              <efac:ContractReference>
+                <cbc:ID>581693</cbc:ID>
+              </efac:ContractReference>
+              <efac:LotTender>
+                <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+              </efac:LotTender>
+            </efac:SettledContract>
+            <efac:TenderingParty>
+              <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+              <efac:Tenderer>
+                <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+              </efac:Tenderer>
+            </efac:TenderingParty>
+          </efac:NoticeResult>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>http://www.oikeus.fi/markkinaoikeus</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Markkinaoikeus</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Radanrakentajantie 5</cbc:StreetName>
+                  <cbc:CityName>Helsinki</cbc:CityName>
+                  <cbc:PostalZone>00520</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">3006157-6</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>+358 295643300</cbc:Telephone>
+                  <cbc:ElectronicMail>markkinaoikeus@oikeus.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+              <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Hollolan Tilapalvelu Oy</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Keskuskatu 4</cbc:StreetName>
+                  <cbc:CityName>Hollola</cbc:CityName>
+                  <cbc:PostalZone>15870</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1C6</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">0869681-5</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Hollolan Tilapalvelu Oy</cbc:Name>
+                  <cbc:Telephone>+358 503834480</cbc:Telephone>
+                  <cbc:ElectronicMail>reijo.reponen@hollola.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">M-Partners Oy</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Teuva</cbc:CityName>
+                  <cbc:PostalZone>64700</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI199</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">1784559-5</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>http://hankintailmoitukset.fi</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="FIN">Hansel Oy (Hilma)</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Mannerheiminaukio 1a</cbc:StreetName>
+                  <cbc:CityName>Helsinki</cbc:CityName>
+                  <cbc:PostalZone>00100</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">FI1B1</cbc:CountrySubentityCode>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">FI09880841</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>eSender</cbc:Name>
+                  <cbc:Telephone>029 55 636 30</cbc:Telephone>
+                  <cbc:ElectronicMail>tekninen@hankintailmoitukset.fi</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00141309-2026</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">42/2026</efbc:GazetteID><efbc:PublicationDate>2026-03-02+01:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">40bd0c3c-26b8-4b5a-918b-c4ab8e393a8f</cbc:ID>
+  <cbc:ContractFolderID>9db9ae22-43ec-44ab-8b9e-657252144884</cbc:ContractFolderID>
+  <cbc:IssueDate>2026-02-26+00:00</cbc:IssueDate>
+  <cbc:IssueTime>14:18:05+00:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>FIN</cbc:NoticeLanguageCode>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">pub-undert</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:ServiceProviderParty>
+        <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+        <cac:Party>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:Party>
+      </cac:ServiceProviderParty>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingProcess>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    <cac:NoticeDocumentReference>
+      <cbc:ID schemeName="notice-id-ref">82291b2a-888b-4957-8e71-16288feadc65-01</cbc:ID>
+    </cac:NoticeDocumentReference>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID>581693</cbc:ID>
+    <cbc:Name languageID="FIN">Kankaan koulun uudisrakennus, SR-urakka</cbc:Name>
+    <cbc:Description languageID="FIN">Hollolan Tilapalvelu Oy pyytää tarjoustanne SR-rakennusurakasta osoitteeseen Koulurinteentie 9E. Hankkeen lähtötietona käytetään tulipalossa tuhoutuneen koulun dokumentteja, jotka ovat tämän tarjouspyynnön liitteenä. Koulu on rakennettu kolmessa vaiheessa ja jokaisesta vaiheesta on omat piirustukset. Kaksi ensimmäistä vaihetta on koulun rakentamista ja kolmas vaihe on liitostyö Salpakankaan kouluun rakennettuun D-osaan. Lisäksi Kankaan koululla on tehty muutostöitä ja vahvistettu seinärakenteita lasikuitupinnoitteisilla erityiskovilla kipsilevyillä. Rakennusta on myös tiivistetty ja sen äänieristystä on parannettu.
+
+Rakennus on tarkoitus tehdä tilaelementeistä. Hankkeen koko on 2300 brm2. Hanke tulee toteuttaa kaikilta osiltaan vähintäänkin liitteiden lähtötietodokumenttien laajuudessa eri järjestelmien osalta huomioiden rakennustekniset ja talotekniset vaatimukset. Lisäksi tulee noudattaa voimassa olevia rakennusmääräyksiä ja niihin liittyviä vaatimuksia.
+
+Rakennus liitetään Salpakankaankoulun D-osaan alkuperäisten suunnitelmien mukaisesti. Urakkaan kuuluu rakennuksen liittäminen D-osaan. Uuden rakennuksen lattiankorko tulee sovittaa yhteen D-osan lattiakoron kanssa.
+
+Rakennus tulee suunnitella ja rakentaa SR-urakkana käyttövalmiiksi asennettuna ja viranomaistarkastukset tehtynä tilaajan tontille (avaimet käteen). 
+Tarjottava rakennus voi vähäisessä määrin poiketa tarjouspyynnön rakennuksen mitoituksesta, niin että se soveltuu toimittajan tilaelementtien mitoitukseen.
+
+Hankkeen päätoteuttajan velvollisuuksista vastaa urakoitsija. Urakoitsija nimeää kohteelle pääsuunnittelijan ja vastaavan työnjohtajan. Toimitukseen sisältyvät kaikki suunnitelmat. Tilaajan edustajilla tulee olla mahdollisuus osallistua toimittajan järjestämiin suunnittelukokouksiin.
+
+Tilaaja hankkii irtokalusteet ja AV-laitteet. Kiintokalusteet, TN-tilojen laitteet ja keittiöiden kalusteet kuuluvat myös urakkaan. Urakkaan kuuluvat kalusteet on lueteltu huonekorteissa. Vaiheen 1 tiloista ei ole huonekortteja. Niihin sovelletaan vaiheen 2 huonekortteja ja kalusteita.
+
+Rakennuksessa on tehty muutos- ja korjaustöitä. Huonejako ja tilat tehdään ajantasapiirustusten mukaisesti. Rakennuksessa on tehty rakennus- ja muutostöitä mm. sisäseinälevytysten vahvistaminen ja vaippaan ja tilojen välisiin rakenteisiin on tehty tiivistyskorjauksia. Seinärakenteet tulee tehdä tiveydeltään ja iskunkestävyydeltään samaa tasoa kuin palaneessa rakennuksessa. Ilmavaihtokoneisiin uusittu EC-puhallin moottorit ja valaistus on uusittu LED-valaistukseksi. Automaatio on myös saneerattu.
+
+SR-urakoitsija hankkii rakennukselle rakennusluvan.
+
+Tämän tarjouspyynnön liitteenä on kaupalliset ja tekniset asiakirjat. Lisäksi on linkki alueen drone- ja valokuviin, josta voi tarkastella alueen nykytilannetta. Loppupiirustukset ja muut dokumentit sekä huoltokirjaan tuleva aineisto viedään urakkaan kuuluvana sähköiseen huoltokirjaan (BEM). Huoltokirjan kansiorakenne on tarjouspyynnön liitteenä. Asiakirjat viedään huoltokirjaan kansiorakenteen mukaisiin paikkoihin.</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">45000000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:RealizedLocation>
+      <cac:Address>
+        <cbc:StreetName>Koulurinteentie 9 E</cbc:StreetName>
+        <cbc:CityName>Hollola</cbc:CityName>
+        <cbc:PostalZone>15870</cbc:PostalZone>
+        <cbc:CountrySubentityCode listName="nuts">FI1C6</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:RealizedLocation>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+    <cac:TenderingTerms>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cac:AwardingTerms>
+        <cac:AwardingCriterion>
+          <cac:SubordinateAwardingCriterion>
+            <ext:UBLExtensions>
+              <ext:UBLExtension>
+                <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                    <efac:AwardCriterionParameter>
+                      <efbc:ParameterCode listName="number-fixed">fix-tot</efbc:ParameterCode>
+                      <efbc:ParameterNumeric>100</efbc:ParameterNumeric>
+                    </efac:AwardCriterionParameter>
+                  </efext:EformsExtension>
+                </ext:ExtensionContent>
+              </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+            <cbc:Description languageID="FIN">Vertailuperusteena pelkkä hinta.</cbc:Description>
+          </cac:SubordinateAwardingCriterion>
+        </cac:AwardingCriterion>
+      </cac:AwardingTerms>
+      <cac:AppealTerms>
+        <cac:AppealInformationParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealInformationParty>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID>581693</cbc:ID>
+      <cbc:Name languageID="FIN">Kankaan koulun uudisrakennus, SR-urakka</cbc:Name>
+      <cbc:Description languageID="FIN">Hollolan Tilapalvelu Oy pyytää tarjoustanne SR-rakennusurakasta osoitteeseen Koulurinteentie 9E. Hankkeen lähtötietona käytetään tulipalossa tuhoutuneen koulun dokumentteja, jotka ovat tämän tarjouspyynnön liitteenä. Koulu on rakennettu kolmessa vaiheessa ja jokaisesta vaiheesta on omat piirustukset. Kaksi ensimmäistä vaihetta on koulun rakentamista ja kolmas vaihe on liitostyö Salpakankaan kouluun rakennettuun D-osaan. Lisäksi Kankaan koululla on tehty muutostöitä ja vahvistettu seinärakenteita lasikuitupinnoitteisilla erityiskovilla kipsilevyillä. Rakennusta on myös tiivistetty ja sen äänieristystä on parannettu.
+
+Rakennus on tarkoitus tehdä tilaelementeistä. Hankkeen koko on 2300 brm2. Hanke tulee toteuttaa kaikilta osiltaan vähintäänkin liitteiden lähtötietodokumenttien laajuudessa eri järjestelmien osalta huomioiden rakennustekniset ja talotekniset vaatimukset. Lisäksi tulee noudattaa voimassa olevia rakennusmääräyksiä ja niihin liittyviä vaatimuksia.
+
+Rakennus liitetään Salpakankaankoulun D-osaan alkuperäisten suunnitelmien mukaisesti. Urakkaan kuuluu rakennuksen liittäminen D-osaan. Uuden rakennuksen lattiankorko tulee sovittaa yhteen D-osan lattiakoron kanssa.
+
+Rakennus tulee suunnitella ja rakentaa SR-urakkana käyttövalmiiksi asennettuna ja viranomaistarkastukset tehtynä tilaajan tontille (avaimet käteen). 
+Tarjottava rakennus voi vähäisessä määrin poiketa tarjouspyynnön rakennuksen mitoituksesta, niin että se soveltuu toimittajan tilaelementtien mitoitukseen.
+
+Hankkeen päätoteuttajan velvollisuuksista vastaa urakoitsija. Urakoitsija nimeää kohteelle pääsuunnittelijan ja vastaavan työnjohtajan. Toimitukseen sisältyvät kaikki suunnitelmat. Tilaajan edustajilla tulee olla mahdollisuus osallistua toimittajan järjestämiin suunnittelukokouksiin.
+
+Tilaaja hankkii irtokalusteet ja AV-laitteet. Kiintokalusteet, TN-tilojen laitteet ja keittiöiden kalusteet kuuluvat myös urakkaan. Urakkaan kuuluvat kalusteet on lueteltu huonekorteissa. Vaiheen 1 tiloista ei ole huonekortteja. Niihin sovelletaan vaiheen 2 huonekortteja ja kalusteita.
+
+Rakennuksessa on tehty muutos- ja korjaustöitä. Huonejako ja tilat tehdään ajantasapiirustusten mukaisesti. Rakennuksessa on tehty rakennus- ja muutostöitä mm. sisäseinälevytysten vahvistaminen ja vaippaan ja tilojen välisiin rakenteisiin on tehty tiivistyskorjauksia. Seinärakenteet tulee tehdä tiveydeltään ja iskunkestävyydeltään samaa tasoa kuin palaneessa rakennuksessa. Ilmavaihtokoneisiin uusittu EC-puhallin moottorit ja valaistus on uusittu LED-valaistukseksi. Automaatio on myös saneerattu.
+
+SR-urakoitsija hankkii rakennukselle rakennusluvan.
+
+Tämän tarjouspyynnön liitteenä on kaupalliset ja tekniset asiakirjat. Lisäksi on linkki alueen drone- ja valokuviin, josta voi tarkastella alueen nykytilannetta. Loppupiirustukset ja muut dokumentit sekä huoltokirjaan tuleva aineisto viedään urakkaan kuuluvana sähköiseen huoltokirjaan (BEM). Huoltokirjan kansiorakenne on tarjouspyynnön liitteenä. Asiakirjat viedään huoltokirjaan kansiorakenteen mukaisiin paikkoihin.</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">45000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+        <cac:Address>
+          <cbc:StreetName>Koulurinteentie 9 E</cbc:StreetName>
+          <cbc:CityName>Hollola</cbc:CityName>
+          <cbc:PostalZone>15870</cbc:PostalZone>
+          <cbc:CountrySubentityCode listName="nuts">FI1C6</cbc:CountrySubentityCode>
+          <cac:Country>
+            <cbc:IdentificationCode listName="country">FIN</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:RealizedLocation>
+      <cac:PlannedPeriod>
+        <cbc:StartDate>2026-01-01Z</cbc:StartDate>
+        <cbc:EndDate>2026-07-31Z</cbc:EndDate>
+      </cac:PlannedPeriod>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+  <cac:TenderResult>
+    <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+  </cac:TenderResult>
+</ContractAwardNotice>

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ext:UBLExtensions>
+      <ext:UBLExtension>
+         <ext:ExtensionContent>
+            <efext:EformsExtension>
+               <efac:NoticeSubType>
+                  <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+               </efac:NoticeSubType>
+               <efac:Organizations>
+                  <efac:Organization>
+                     <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                     <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.bescha.bund.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Bundesrepublik Deutschland, vertreten durch das Bundesministerium des Innern und für Heimat, vertreten durch das Beschaffungsamt des BMI</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Brühler Straße 3</cbc:StreetName>
+                           <cbc:CityName>Bonn</cbc:CityName>
+                           <cbc:PostalZone>53119</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>t:0049228996100</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 22899610-5316</cbc:Telephone>
+                           <cbc:Telefax>+49 2289910610-5316</cbc:Telefax>
+                           <cbc:ElectronicMail>B23.17@bescha.bund.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+                  <efac:Organization>
+                     <efac:Company>
+                        <cbc:WebsiteURI>http://www.bundeskartellamt.de</cbc:WebsiteURI>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+                        </cac:PartyIdentification>
+                        <cac:PartyName>
+                           <cbc:Name languageID="DEU">Vergabekammer des Bundes</cbc:Name>
+                        </cac:PartyName>
+                        <cac:PostalAddress>
+                           <cbc:StreetName>Kaiser-Friedrich-Straße 16</cbc:StreetName>
+                           <cbc:CityName>Bonn</cbc:CityName>
+                           <cbc:PostalZone>53113</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+                           <cac:Country>
+                              <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+                           </cac:Country>
+                        </cac:PostalAddress>
+                        <cac:PartyLegalEntity>
+                           <cbc:CompanyID>t:022894990</cbc:CompanyID>
+                        </cac:PartyLegalEntity>
+                        <cac:Contact>
+                           <cbc:Telephone>+49 2289499-0</cbc:Telephone>
+                           <cbc:Telefax>+49 2289499-163</cbc:Telefax>
+                           <cbc:ElectronicMail>vk@bundeskartellamt.bund.de</cbc:ElectronicMail>
+                        </cac:Contact>
+                     </efac:Company>
+                  </efac:Organization>
+               <efac:Organization><efac:Company><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification><cac:PartyName><cbc:Name languageID="DEU">Datenservice Öffentlicher Einkauf (in Verantwortung des Beschaffungsamts des BMI)</cbc:Name></cac:PartyName><cac:PostalAddress><cbc:CityName>Bonn</cbc:CityName><cbc:PostalZone>53119</cbc:PostalZone><cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode><cac:Country><cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode></cac:Country></cac:PostalAddress><cac:PartyLegalEntity><cbc:CompanyID schemeID="002">0204:994-DOEVD-83</cbc:CompanyID></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>+49228996100</cbc:Telephone><cbc:ElectronicMail>noreply.esender_hub@bescha.bund.de</cbc:ElectronicMail></cac:Contact></efac:Company></efac:Organization></efac:Organizations>
+            <efac:Publication><efbc:NoticePublicationID schemeName="ojs-notice-id">00136336-2025</efbc:NoticePublicationID><efbc:GazetteID schemeName="ojs-id">43/2025</efbc:GazetteID><efbc:PublicationDate>2025-03-03+01:00</efbc:PublicationDate></efac:Publication></efext:EformsExtension>
+         </ext:ExtensionContent>
+      </ext:UBLExtension>
+   </ext:UBLExtensions>
+   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+   <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+   <cbc:ID schemeName="notice-id">ac11f290-b9fd-44f3-a705-d013c1f1ffa1</cbc:ID>
+   <cbc:ContractFolderID>bfe75e9f-bbac-4068-8172-4bd2cc028de8</cbc:ContractFolderID>
+   <cbc:IssueDate>2025-02-28+01:00</cbc:IssueDate>
+   <cbc:IssueTime>07:31:19+01:00</cbc:IssueTime>
+   <cbc:VersionID>01</cbc:VersionID>
+   <cbc:RequestedPublicationDate>2025-02-28+01:00</cbc:RequestedPublicationDate>
+   <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+   <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+   <cbc:NoticeLanguageCode listName="language">DEU</cbc:NoticeLanguageCode>
+   <cac:ContractingParty>
+      <cac:ContractingPartyType>
+         <cbc:PartyTypeCode listName="buyer-legal-type">cga</cbc:PartyTypeCode>
+      </cac:ContractingPartyType>
+      <cac:ContractingActivity>
+         <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+      </cac:ContractingActivity>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+         </cac:PartyIdentification>
+      <cac:ServiceProviderParty><cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode><cac:Party><cac:PartyIdentification><cbc:ID schemeName="organization">ORG-7005</cbc:ID></cac:PartyIdentification></cac:Party></cac:ServiceProviderParty></cac:Party>
+   </cac:ContractingParty>
+   <cac:TenderingTerms>
+      <cac:ProcurementLegislationDocumentReference>
+         <cbc:ID>vgv</cbc:ID>
+      </cac:ProcurementLegislationDocumentReference>
+      <cac:TendererQualificationRequest>
+         <cac:SpecificTendererRequirement>
+            <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+            <cbc:Description languageID="DEU">Nachweisführung gemäß Vergabeunterlagen</cbc:Description>
+         </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+   </cac:TenderingTerms>
+   <cac:TenderingProcess>
+      <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+      <cac:ProcessJustification>
+         <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+      </cac:ProcessJustification>
+   </cac:TenderingProcess>
+   <cac:ProcurementProject>
+      <cbc:ID>B 23.17 - 0011/24/VV : 1</cbc:ID>
+      <cbc:Name languageID="DEU">Luftgestützte Zelte und Zubehör</cbc:Name>
+      <cbc:Description languageID="DEU">Höchstmenge:
+126 St. Luftgestützte Unterbringungszelte
+26 St. Isolier/Innenzelte
+26 St.Sonnendächer</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cbc:Note languageID="DEU">Als Beleg für das Nichtvorliegen von Ausschlussgründen sind folgende Erklärungen einzureichen: Anlage Eigenerklärung Ausschlussgründe, Anlage Eigenerklärung Sanktionen Russland.
+
+Daneben sind folgende auftragsbezogene Nachweise sind mit dem Angebot einzureichen (siehe besondere Bewerbungsbedingungen unter 3.7.1):
+
+Mit dem Angebot sind aussagefähige Abbildungen des Zeltes und Zubehörs sowie eine detaillierte Produktbeschreibung zu übersenden, aus der die Leistung eindeutig hervorgeht.
+
+Mit dem Angebot sind Nachweise zu den folgenden Kriterien der verwendeten Materialien in Form von Prüfzertifikaten von unabhängigen Prüfinstituten einzureichen:
+- Schwerentflammbarkeit nach DIN 4102 B1 für Zelthaut (siehe LB 2.3.1), Zeltboden (siehe LB 2.3.2) und Material des Sonnensegels (siehe LB 4.3.1).
+
+Mit dem Angebot sind Nachweise zu den folgenden Kriterien der verwendeten Materialien in Form von Produktdatenblättern, Materialdatenblättern, technischen Datenblättern oder Werksprüfzertifikaten des jeweiligen Herstellers einzureichen:
+- Materialzusammensetzung für Zelthaut (siehe LB 2.3.1), Zeltboden (siehe LB 2.3.2) und Material des Sonnensegels (siehe LB 4.3.1)
+- Materialstärke (Flächengewicht) für Zelthaut (siehe LB 2.3.1), Zeltboden (siehe LB 2.3.2) und Material des Sonnensegels (siehe LB 4.3.1)
+- Reißfestigkeit nach DIN EN ISO 1421 und Durchstoßfestigkeit nach DIN EN 14477 für Zelthaut (siehe LB 2.3.1) und Zeltboden (siehe LB 2.3.2)
+- Wasserdichtigkeit für Zelthaut (siehe LB 2.3.1) und Zeltboden (siehe LB 2.3.2) nach DIN EN ISO 811.
+
+Nach gesonderter Aufforderung auf dem Postweg einzureichende Angebotsmuster (siehe besondere Bewerbungsbedingungen unter 3.7.2):
+
+Das Beschaffungsamt des BMI führt mit dem Mustersatz in der Bemusterung eine verifizierende Prüfung anhand der Mindestanforderungen aus der jeweiligen Leistungsbeschreibung durch. Für die Bemusterung müssen die Bieter nach gesonderter Aufforderung einen Mustersatz bestehend aus 1 Unterbringungszelt, 1 Innenzelt und 1 Sonnenschutzsegel und dem Zubehör gemäß der benannten Leistungsbeschreibung zu den jeweiligen Preisen des Angebots zur Verfügung stellen. Die Lieferung dieses Mustersatzes erfolgt gemäß den Incoterms 2020 Klausel DAP und spätestens 4 Wochen nach Aufforderung an das THW Logistikzentrum Hilden, Westring 17, 40721 Hilden.</cbc:Note>
+      <cac:MainCommodityClassification>
+         <cbc:ItemClassificationCode listName="cpv">19000000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:RealizedLocation>
+         <cac:Address>
+            <cbc:CityName>Hilden</cbc:CityName>
+            <cbc:PostalZone>40721</cbc:PostalZone>
+            <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+            <cac:Country>
+               <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:Address>
+      </cac:RealizedLocation>
+   </cac:ProcurementProject>
+   <cac:ProcurementProjectLot>
+      <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+      <cac:TenderingTerms>
+         <ext:UBLExtensions>
+            <ext:UBLExtension>
+               <ext:ExtensionContent>
+                  <efext:EformsExtension>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Zum Nachweis der wirtschaftlichen und finanziellen Leistungsfähigkeit ist der Gesamtumsatz für die letzten zwei abgeschlossenen Geschäftsjahre anzugeben. Der Umsatz muss mindestens 300.000 EUR pro Geschäftsjahr betragen. Übersenden Sie hierzu bitte eine Eigenerklärung in Form einer selbsterstellten Liste.
+
+Sofern Sie aus berechtigten Gründen die Unterlagen nicht beibringen können, teilen Sie diese Gründe dem Beschaffungsamt des BMI mit und legen Sie einen anderen geeigneten Nachweis der wirtschaftlichen und finanziellen Leistungsfähigkeit vor. Das Beschaffungsamt des BMI entscheidet sodann nach pflichtgemäßem Ermessen über die Anerkennung des Alternativnachweises. Sofern Sie diesbezüglich unsicher sind, kontaktieren Sie das Beschaffungsamt des BMI unbedingt rechtzeitig vor Ablauf der Teilnahme- oder Angebotsfrist in Form einer Bewerber-/Bieterfrage. Ein Nachfordern und Beibringen eines anderen (geeigneteren) Nachweises ist nach dem Angebotsschluss aus vergaberechtlichen Gründen nicht mehr möglich.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:SelectionCriteria>
+                        <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                        <cbc:Description languageID="DEU">Zum Nachweis der technischen und beruflichen Leistungsfähigkeit reichen Sie bitte ein gültiges Zertifikat nach DIN EN ISO 9001, oder eines vergleichbaren Qualitätsmanagementsystems mit den Angeboten ein. Die Bescheinigung über das bestehende Qualitätsmanagementsystem muss von einer unabhängigen und akkreditierten europäischen Stelle ausgestellt worden und zum Zeitpunkt "Ende der Angebotsfrist" gültig sein. Gleichwertige Qualitätsmanagementmaßnahmen sind zugelassen, wenn der Bieter die Gleichwertigkeit nachweist.</cbc:Description>
+                     </efac:SelectionCriteria>
+                     <efac:StrategicProcurement>
+                        <efbc:ApplicableLegalBasis listName="cvd-scope">false</efbc:ApplicableLegalBasis>
+                     </efac:StrategicProcurement>
+                  </efext:EformsExtension>
+               </ext:ExtensionContent>
+            </ext:UBLExtension>
+         </ext:UBLExtensions>
+         <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+         <cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
+         <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+         <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+         <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+         <cac:CallForTendersDocumentReference>
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:OfficialLanguages>
+                           <cac:Language>
+                              <cbc:ID>DEU</cbc:ID>
+                           </cac:Language>
+                        </efac:OfficialLanguages>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:ID>TenderDoc</cbc:ID>
+            <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+            <cac:Attachment>
+               <cac:ExternalReference>
+                  <cbc:URI>https://www.evergabe-online.de/tenderdocuments.html?id=754757</cbc:URI>
+               </cac:ExternalReference>
+            </cac:Attachment>
+         </cac:CallForTendersDocumentReference>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
+               <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:TendererQualificationRequest>
+            <cac:SpecificTendererRequirement>
+               <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+         </cac:TendererQualificationRequest>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:ContractExecutionRequirement>
+            <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+         </cac:ContractExecutionRequirement>
+         <cac:AwardingTerms>
+            <cac:AwardingCriterion>
+               <cac:SubordinateAwardingCriterion>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:AwardCriterionParameter>
+                                 <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                 <efbc:ParameterNumeric>100.00</efbc:ParameterNumeric>
+                              </efac:AwardCriterionParameter>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                  <cbc:Name languageID="DEU">Preis</cbc:Name>
+                  <cbc:Description languageID="DEU">siehe Vergabeunterlagen</cbc:Description>
+               </cac:SubordinateAwardingCriterion>
+            </cac:AwardingCriterion>
+         </cac:AwardingTerms>
+         <cac:AdditionalInformationParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:AdditionalInformationParty>
+         <cac:TenderRecipientParty>
+            <cbc:EndpointID>http://www.evergabe-online.de</cbc:EndpointID>
+            <cac:PartyIdentification>
+               <cbc:ID schemeName="organization">ORG-7001</cbc:ID>
+            </cac:PartyIdentification>
+         </cac:TenderRecipientParty>
+         <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="DAY">99</cbc:DurationMeasure>
+         </cac:TenderValidityPeriod>
+         <cac:AppealTerms>
+            <cac:PresentationPeriod>
+               <cbc:Description languageID="DEU">Unternehmen haben einen Anspruch auf Einhaltung der bieter- und bewerberschützenden Bestimmungen über das Vergabeverfahren gegenüber dem öffentlichen Auftraggeber, Bundesrepublik Deutschland, vertreten durch das Beschaffungsamt des BMI (BeschA). 
+
+Sieht sich ein am Auftrag interessiertes Unternehmen durch Nichtbeachtung von Vergabevorschriften in seinen Rechten verletzt, ist der Verstoß innerhalb einer Frist von zehn Kalendertagen gegenüber dem BeschA zu rügen (§ 160 Abs. 3 S. 1 Nr. 1 Gesetz gegen Wettbewerbsbeschränkungen (GWB)). Verstöße, die aufgrund der Bekanntmachung oder der Vergabeunterlagen erkennbar sind, müssen spätestens bis zu der in der Bekanntmachung benannten Frist zur Bewerbung oder Angebotsabgabe gegenüber dem BeschA gerügt werden (§ 160 Abs. 3 S. 1 Nr. 2 und 3 GWB). 
+
+Teilt das BeschA dem Unternehmen mit, seiner Rüge nicht abhelfen zu wollen, so besteht die Möglichkeit, innerhalb von 15 Tagen nach Eingang der Mitteilung einen Antrag auf Nachprüfung bei der Vergabekammer zu stellen (§ 160 Abs. 3 S. 1 Nr. 4 GWB). 
+
+Bieter, deren Angebote für den Zuschlag nicht berücksichtigt werden sollen, werden vor dem Zuschlag gemäß § 134 Abs. 1 GWB darüber informiert. Ein Vertrag darf erst 15 Kalendertage nach Absendung dieser Information durch das BeschA geschlossen werden; bei Übermittlung per Fax oder auf elektronischem Wege beträgt diese Frist zehn Kalendertage. Sie beginnt am Tag nach Absendung der Information durch das BeschA. 
+
+Ein Antrag auf Nachprüfung ist schriftlich an die Vergabekammern des Bundes beim Bundeskartellamt,  wie dem darunter folgenden Adressfeld entnommen werden kann.
+
+Hinweis: Das BeschA ist im Falle eines Nachprüfungsantrags verpflichtet, die Vergabeakten, die auch die abgegebenen Angebote enthalten, an die Vergabekammer weiterzuleiten. Die Beteiligten haben ein Recht auf Akteneinsicht. Um Betriebs- und Geschäftsgeheimnisse zu wahren, teilen Sie uns konkret mit Bezug auf die entsprechenden Dokumente des Angebotes mit, welche Informationen als Betriebs- und Geschäftsgeheimnisse zu behandeln sind.</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealReceiverParty>
+               <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-7004</cbc:ID>
+               </cac:PartyIdentification>
+            </cac:AppealReceiverParty>
+         </cac:AppealTerms>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:Language>
+            <cbc:ID>DEU</cbc:ID>
+         </cac:Language>
+         <cac:PostAwardProcess>
+            <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+            <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+         </cac:PostAwardProcess>
+      </cac:TenderingTerms>
+      <cac:TenderingProcess>
+         <cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
+         <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+         <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2025-04-11+02:00</cbc:EndDate>
+            <cbc:EndTime>11:30:00+02:00</cbc:EndTime>
+         </cac:TenderSubmissionDeadlinePeriod>
+         <cac:OpenTenderEvent>
+            <cbc:OccurrenceDate>2025-04-11+02:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>11:31:00+02:00</cbc:OccurrenceTime>
+         </cac:OpenTenderEvent>
+         <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+         </cac:AuctionTerms>
+         <cac:FrameworkAgreement>
+            <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+         </cac:FrameworkAgreement>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+         <cac:ContractingSystem>
+            <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+         </cac:ContractingSystem>
+      </cac:TenderingProcess>
+      <cac:ProcurementProject>
+         <cbc:ID>LOT-0000</cbc:ID>
+         <cbc:Name languageID="DEU">Luftgestützte Zelte und Zubehör</cbc:Name>
+         <cbc:Description languageID="DEU">Geschätzte Gesamtbedarfsmenge: 
+- 126 Stück Luftgestützte Unterbringungszelte
+- 26 Stück Isolier/Innenzelte
+- 26 Stück Sonnendächer
+
+davon Mindestabnahmemenge (Festbestellmenge): 
+- 60 Stück Luftgestützte Unterbringungszelte
+- 10 Stück Isolier/Innenzelte
+- 10 Stück Sonnendächer
+
+Die geschätzte Gesamtbedarfsmenge entspricht der Höchstmenge, weshalb maximal 126 Stück Luftgestützte Unterbringungszelte, 26 Stück Isolier/Innenzelte und 26 Stück Sonnendächer aus der Rahmenvereinbarung abgerufen werden können. Es besteht keine Abnahmeverpflichtung über die Festbestellmenge hinaus.</cbc:Description>
+         <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+         <cbc:Note languageID="DEU">Der Ort der Leistungserbringung ist der im jeweiligen Einzelabruf genannte Lieferort, siehe Verdigungsunterlagen Rahmenvereinbarung § 7.
+Die Bindefrist beginnt mit Ablauf der Angebotsfrist und endet nach 99 Tagen</cbc:Note>
+         <cbc:SMESuitableIndicator>false</cbc:SMESuitableIndicator>
+         <cac:ProcurementAdditionalType>
+            <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+         </cac:ProcurementAdditionalType>
+         <cac:MainCommodityClassification>
+            <cbc:ItemClassificationCode listName="cpv">19000000</cbc:ItemClassificationCode>
+         </cac:MainCommodityClassification>
+         <cac:RealizedLocation>
+            <cac:Address>
+               <cbc:CityName>Hilden</cbc:CityName>
+               <cbc:PostalZone>40721</cbc:PostalZone>
+               <cbc:CountrySubentityCode listName="nuts">DEA22</cbc:CountrySubentityCode>
+               <cac:Country>
+                  <cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:Address>
+         </cac:RealizedLocation>
+         <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MONTH">36</cbc:DurationMeasure>
+         </cac:PlannedPeriod>
+         <cac:ContractExtension>
+            <cbc:OptionsDescription languageID="DEU">die Rahmenvereinbarung kann einmalig um 1 Jahr, also auf eine Maximallaufzeit von 4 Jahren verlängert werden kann.</cbc:OptionsDescription>
+         </cac:ContractExtension>
+      </cac:ProcurementProject>
+   </cac:ProcurementProjectLot>
+</ContractNotice>
