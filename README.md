@@ -39,12 +39,41 @@ while benchmarking them regarding e.g. execution time, CPU, memory usage, or a c
 Participants will be provided with a virtual machine with uniform hardware
 resources to ensure a fair comparison of all the mapping implementations. 
 
-**Please keep an eye out for an email from the organizers for login details to
-the virtual machines**
+> [!IMPORTANT]
+> Please keep an eye out for an email from the organizers for login details to the virtual machines
 
-A more detailed instruction for running the challenge can be found in the
-[README](./track_2_performance/README.md) under the `./track_2_performance/`
-folder. 
+The performance challenge aims to evaluate the materialization capabilities
+under the following scenarios: 
+
+**Data**
+
+* Number of data records: scaling the data size vertically by the number of records with a fixed number of data properties (10K, 100K, 1M, 10M records).
+* Number of data properties: scaling the data size horizontally by the number of data properties with a fixed number of data records (1, 10, 20, 30 columns).
+* Number of duplicate values: scaling the number of duplicate values in the dataset (0%, 25%, 50%, 75%, 100%).
+* Number of empty values: scaling the number of empty values in the dataset (0%, 25%, 50%, 75%, 100%).
+
+**Mappings**
+
+* Number of subjects: scaling the number of subjects with a fixed number of predicates and objects (1, 10, 20, 30 TMs).
+* Number of predicates and objects: scaling the number of predicates and objects with a fixed number of subjects (1, 10, 20, 30 POMs).
+* Number of named graphs: scaling the number of named graphs either in subject maps or predicate-object maps. 
+* Number of and type of joins: scaling the number of joins and type of joins (1-1, N-1, 1-N, N-M)
+
+**RML-CC: Collections and Containers (New!)**
+
+* Scaling number of records while keeping a fixed-size list of values per record (10k to 10M records). 
+
+* Scaling number of values inside the list per data record. 
+
+* Scaling percentage of matching keys inside the list of values per record to
+  measure collections and containers join performance.  
+
+* Scaling percentage of data duplication inside the list of values for testing
+  performance when handling redundancy.
+
+
+> [!NOTE]
+> A more detailed instruction for running the challenge can be found in the [README](./track_2_performance/README.md) under the `./track_2_performance/` folder. 
 
 
 

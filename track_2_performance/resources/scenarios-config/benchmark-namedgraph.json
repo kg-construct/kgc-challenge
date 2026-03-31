@@ -72,8 +72,8 @@
             }
         },
                 {
-            "@id": "http://example.com/new-rml-benchmark/namedgraphs#15POM1NGdynamic",
-            "name": "15 POM 1 NG dynamic",
+            "@id": "http://example.com/new-rml-benchmark/namedgraphs#16POM1NGdynamic",
+            "name": "16 POM 1 NG dynamic",
             "generator": "NamedGraph",
             "parameters": {
                 "number_of_ng_pom": 1,
@@ -89,8 +89,8 @@
             }
         },
                 {
-            "@id": "http://example.com/new-rml-benchmark/namedgraphs#15POM1NGdynamic",
-            "name": "15 POM 1 NG dynamic",
+            "@id": "http://example.com/new-rml-benchmark/namedgraphs#18POM1NGdynamic",
+            "name": "18 POM 1 NG dynamic",
             "generator": "NamedGraph",
             "parameters": {
                 "number_of_ng_pom": 1,
@@ -106,8 +106,8 @@
             }
         },
                 {
-            "@id": "http://example.com/new-rml-benchmark/namedgraphs#15POM1NGdynamic",
-            "name": "15 POM 1 NG dynamic",
+            "@id": "http://example.com/new-rml-benchmark/namedgraphs#20POM1NGdynamic",
+            "name": "20 POM 1 NG dynamic",
             "generator": "NamedGraph",
             "parameters": {
                 "number_of_ng_pom": 1,
@@ -123,8 +123,8 @@
             }
         },
                 {
-            "@id": "http://example.com/new-rml-benchmark/namedgraphs#15POM1NGdynamic",
-            "name": "15 POM 1 NG dynamic",
+            "@id": "http://example.com/new-rml-benchmark/namedgraphs#25POM1NGdynamic",
+            "name": "25 POM 1 NG dynamic",
             "generator": "NamedGraph",
             "parameters": {
                 "number_of_ng_pom": 1,
@@ -157,8 +157,8 @@
             }
         },
         {
-            "@id": "http://example.com/new-rml-benchmark/namedgraphs#1POM10NGdynamic",
-            "name": "1 POM 10 NG dynamic",
+            "@id": "http://example.com/new-rml-benchmark/namedgraphs#5POM5NGdynamic",
+            "name": "5 POM 5 NG dynamic",
             "generator": "NamedGraph",
             "parameters": {
                 "number_of_ng_pom": 5,
@@ -174,8 +174,8 @@
             }
         },
                {
-            "@id": "http://example.com/new-rml-benchmark/namedgraphs#1POM10NGdynamic",
-            "name": "1 POM 10 NG dynamic",
+            "@id": "http://example.com/new-rml-benchmark/namedgraphs#10POM5NGdynamic",
+            "name": "10 POM 5 NG dynamic",
             "generator": "NamedGraph",
             "parameters": {
                 "number_of_ng_pom": 5,
@@ -210,7 +210,7 @@
         },
 
                        {
-            "@id": "http://example.com/new-rml-benchmark/namedgraphs#1POM10NGdynamic",
+            "@id": "http://example.com/new-rml-benchmark/namedgraphs#1POM15NGdynamic",
             "name": "1 POM 15 NG dynamic",
             "generator": "NamedGraph",
             "parameters": {
@@ -228,7 +228,7 @@
   
         },
                        {
-            "@id": "http://example.com/new-rml-benchmark/namedgraphs#1POM10NGdynamic",
+            "@id": "http://example.com/new-rml-benchmark/namedgraphs#1POM16NGdynamic",
             "name": "1 POM 16 NG dynamic",
             "generator": "NamedGraph",
             "parameters": {
@@ -246,7 +246,7 @@
   
         },
         {
-            "@id": "http://example.com/new-rml-benchmark/namedgraphs#1POM10NGdynamic",
+            "@id": "http://example.com/new-rml-benchmark/namedgraphs#1POM17NGdynamic",
             "name": "1 POM 17 NG dynamic",
             "generator": "NamedGraph",
             "parameters": {
@@ -264,7 +264,7 @@
   
         },
         {
-            "@id": "http://example.com/new-rml-benchmark/namedgraphs#1POM10NGdynamic",
+            "@id": "http://example.com/new-rml-benchmark/namedgraphs#1POM20NGdynamic",
             "name": "1 POM 20 NG dynamic",
             "generator": "NamedGraph",
             "parameters": {
@@ -282,7 +282,7 @@
   
         },
         {
-            "@id": "http://example.com/new-rml-benchmark/namedgraphs#1POM10NGdynamic",
+            "@id": "http://example.com/new-rml-benchmark/namedgraphs#1POM25NGdynamic",
             "name": "1 POM 25 NG dynamic",
             "generator": "NamedGraph",
             "parameters": {
@@ -300,7 +300,7 @@
   
         },
         {
-            "@id": "http://example.com/new-rml-benchmark/namedgraphs#1POM10NGdynamic",
+            "@id": "http://example.com/new-rml-benchmark/namedgraphs#1POM30NGdynamic",
             "name": "1 POM 30 NG dynamic",
             "generator": "NamedGraph",
             "parameters": {
