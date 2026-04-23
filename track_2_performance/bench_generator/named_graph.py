@@ -228,7 +228,7 @@ class NamedGraph(Scenario):
         logical_source_iri = BNode()
 
         mapping.add((logical_source_iri, RML.source, source_path))
-        mapping.add((logical_source_iri, RML.referenceFormulation, QL.CSV))
+        mapping.add((logical_source_iri, RML.referenceFormulation, RML.CSV))
         mapping.add((logical_source_iri, RDF.type, RML.LogicalSource))
         mapping.add((triples_map_iri, RML.logicalSource, logical_source_iri))
         mapping.add((triples_map_iri, RML.subjectMap, subject_map_iri))
