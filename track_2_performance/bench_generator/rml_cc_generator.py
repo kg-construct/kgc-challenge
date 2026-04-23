@@ -158,6 +158,7 @@ class RMLCCData(Scenario):
             parameters = {
                 "mapping_file": f'{mapping_folder}_mapping.ttl',
                 "output_file": f'{mapping_folder}_out.nt',
+                "serialization": "ntriples", 
             }
             metadata["steps"].append(
                 self._build_step(
