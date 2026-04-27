@@ -46,7 +46,7 @@ RMLTC-CC-0008-ROMb,join
 RMLTC-CC-0009-DUP-Bag,duplicates
 RMLTC-CC-0009-DUP-List,duplicates
 """
-DATA_FILE = "data.csv"
+DATA_FILE = "data.json"
 RESOURCE_FOLDER = "resources/rml-cc"
 SEED_MULTI_FILE = f"{RESOURCE_FOLDER}/seed_data/multivalues.json"
 SEED_DUPLI_FILE = f"{RESOURCE_FOLDER}/seed_data/duplicate.json"
